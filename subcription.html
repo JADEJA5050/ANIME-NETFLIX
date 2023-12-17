@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Subcription</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nikukyu%3A400"/>
+  <link rel="stylesheet" href="subcription.css"/>
+  <script>
+    $(document).ready(function () {
+      function validateFname(firstname) {
+                var firstnamePattern = /^[A-Za-z ]{2,30}$/;
+                return firstnamePattern.test(firstname);
+            }
+      function validateEmail(email) {
+                var emailPattern = /^[\w\.]+@([\w]+\.)+[\w]{2,4}$/;;
+                return emailPattern.test(email);
+            }
+      function validatePincode(pincode) {
+                var pincodePattern = /^[0-9]{6}$/;
+                return pincodePattern.test(pincode);
+            }
+      function validatecard(cardnumber) {
+                var cardnumberPattern = /^\d{4}[./-]\d{4}[./-]\d{4}$/;
+                return cardnumberPattern.test(cardnumber);
+            }
+      function validateccv(ccvnumber) {
+                var ccvPattern = /^[0-9]{3}$/;
+                return ccvPattern.test(ccvnumber);
+            }
+      function validatedate(date) {
+                var datePattern = /^\d{2}[./-]\d{2}[./-]\d{4}$/;
+                return datePattern.test(date);
+            }
+      
+     
+            $('#reg').submit(function (e) {
+                e.preventDefault();
+                var fn = $('#fn1').val();
+                if (fn == "") {
+                    $('#fn1_error').html("Fullname is required");
+                    $('#fn1_error').css('color', 'red');
+                    $('#fullname_status').html("");
+                    is_valid = false;
+
+                } else {
+                    if (validateFname(fn)) {
+                        $('#fullname_status').html("Fullname:: " + fn);
+                        $('#fullname_status').css('color', 'green');
+                        $('#fn1_error').html("");
+                    } else {
+                        $('#fn1_error').html(
+                            "Name contains only letters"
+                        );
+                        $('#fn1_error').css('color', 'red');
+                        $('#fullname_status').html(
+                            "");
+                        is_valid = false;
+                    }
+
+                }
+
+                
+                var is_valid = true;
+                var result = $('input[type="radio"]:checked');
+                if (result.length > 0) {
+                    $('#radio_status').html(result.val() + " is selected");
+                    $('#radio_status').css('color', 'green');
+                    $('#gender_error').html("");
+                } else {
+                    $('#gender_error').html("Gender not selected");
+                    $('#gender_error').css('color', 'red');
+                    $('#radio_status').html("");
+                    is_valid = false;
+                }
+
+                var address = $('#address').val();
+                if (address == "") {
+                    $('#address_error').html("Address is required Field");
+                    $('#address_error').css('color', 'red');
+                    $('#address_status').html("");
+                } else {
+                    $('#address_status').html("Address::" + address);
+                    $('#address_status').css('color', 'green');
+                    $('#address_error').html("");
+                }
+
+                
+                var em = $('#email1').val();
+                if (em == "") {
+                    $('#email_error').html("Email is required");
+                    $('#email_error').css('color', 'red');
+                    $('#email_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validateEmail(em)) {
+                        $('#email_status').html("Email:: " + em);
+                        $('#email_status').css('color', 'green');
+                        $('#email_error').html("");
+                    } else {
+                        $('#email_error').html("Email is not valid");
+                        $('#email_error').css('color', 'red');
+                        $('#email_status').html("");
+                    }
+
+                  }
+
+                  var pc = $('#pincode').val();
+                if (pc == "") {
+                    $('#pc_error').html("Pincode number is required");
+                    $('#pc_error').css('color', 'red');
+                    $('#pc_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validatePincode(pc)) {
+                        $('#pc_status').html("Pincode Number::" + pc);
+                        $('#pc_status').css('color', 'green');
+                        $('#pc_error').html("");
+                    } else {
+                        $('#pc_error').html(
+                            "pincode must contain 6 digits.");
+                        $('#pc_error').css('color', 'red');
+                        $('#pc_status').html("");
+                        is_valid = false;
+                    }
+                }
+                var cn = $('#cn').val();
+                if (cn == "") {
+                    $('#cn_error').html("Card number is required");
+                    $('#cn_error').css('color', 'red');
+                    $('#cn_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validatecard(cn)) {
+                        $('#cn_status').html("Pincode Number::" + cn);
+                        $('#cn_status').css('color', 'green');
+                        $('#cn_error').html("");
+                    } else {
+                        $('#cn_error').html(
+                            "Cardnumber contain 12 digits.");
+                        $('#cn_error').css('color', 'red');
+                        $('#cn_status').html("");
+                        is_valid = false;
+                    }
+                }
+
+                var date = $('#date').val();
+                if (date == "") {
+                    $('#date_error').html("Expire date is required");
+                    $('#date_error').css('color', 'red');
+                    $('#date_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validatedate(date)) {
+                        $('#date_status').html("Pincode Number::" + date);
+                        $('#date_status').css('color', 'green');
+                        $('#date_error').html("");
+                    } else {
+                        $('#date_error').html(
+                            "date write like dd/mm/yyyy");
+                        $('#date_error').css('color', 'red');
+                        $('#date_status').html("");
+                        is_valid = false;
+                    }
+                }
+              
+
+                var ccv = $('#ccv').val();
+                if (ccv == "") {
+                    $('#ccv_error').html("Ccv number is required");
+                    $('#ccv_error').css('color', 'red');
+                    $('#ccv_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validateccv(ccv)) {
+                        $('#ccv_status').html("Pincode Number::" + ccv);
+                        $('#ccv_status').css('color', 'green');
+                        $('#ccv_error').html("");
+                    } else {
+                        $('#ccv_error').html(
+                            "Ccv number contain 3 digits.");
+                        $('#ccv_error').css('color', 'red');
+                        $('#ccv_status').html("");
+                        is_valid = false;
+                    }
+                }
+              
+                if (is_valid) {
+                    this.submit();
+                }
+            });
+        });
+  </script>
+</head>
+<body>
+  <form id="reg" action="index.html" method="get">
+<div class="subcription-Nxy">
+  <div class="auto-group-qkem-WJV">
+    <!-- navbar -->
+    <a href="index.html" class="home-qbf">HOME</a>
+    <a href="anime.html" class="anime-aJM">ANIME</a>
+    <a href="manga.html" class="manga-Kmj">MANGA</a>
+    <a href="movies.html" class="movies-gMP">MOVIES</a>
+    <a href="login.html" class="login-page-2g9">LOGIN PAGE</a>
+    <a class="subcription-ahf">SUBCRIPTION</a>
+  </div>
+  <!-- main div -->
+  <div class="auto-group-fep9-7xV">
+    <p class="payment-form-qtV">Payment Form</p>
+    <p class="user-information-jys">User Information</p>
+
+    <img class="line-1-hBw" src="line-1.png"/>
+    <!-- Name -->
+    <p class="name--x5w">Name :</p>
+    <input type="text" name="fn" id="fn1" placeholder="Bharat jadeja" class="auto-group-u27j-C8h">
+    <span id="fn1_error"></span>
+
+    <!-- Gender -->
+    <div class="auto-group-b7q5-Di1">
+        <div class="rectangle-3-YkH">
+        </div>
+        <div class="rectangle-97-s1s">
+        </div>
+        <p class="gender-mN9">Gender</p>
+        <p class="male-GJu">Male</p>
+        <input type="radio" class="male-GJu" style="margin-left: 35px;" name="gender">
+        <p class="female-tbB">Female</p>
+        <input type="radio" class="female-tbB" style="margin-left: 43px;" name="gender">
+        <span id="gender_error"></span>
+      </div>
+
+    <!-- Address -->
+    <p class="address--ad7">Address :</p>
+    <input type="text" id="address" placeholder="Enter your Address" class="auto-group-n8py-mb7">
+    <span id="address_error"></span>
+
+    <!-- Email -->
+    <p class="email--fW9">Email :</p>
+    <input type="text" name="em" id="email1" placeholder="jadeja5050@gmail.com" class="auto-group-xfpo-W6m">
+    <span id="email_error"></span>
+
+    <!-- Pincode -->
+    <p class="pincode--LrV">Pincode :</p>
+    <input type="text" name="pincode" id="pincode" placeholder="123456" class="auto-group-bawm-mwo">
+    <span id="pc_error"></span>
+
+    <p class="payment-information-rHo">Payment Information</p>
+
+    <!-- Card type -->
+    <p class="card-type--FyT">Card Type :</p>
+    <div class="auto-group-rv3f-dz1">
+      <select class="select-card-type--XZb" name="Card type" id="state1">
+        <option value="Business card">Business card</option>
+        <option value="Master card">Master card</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="Debit Card">Debit Card</option>
+      </select>
+      <img class="arrow-1-G1P" src="REPLACE_IMAGE:28:135"/>
+    </div>
+
+    <!-- Card number -->
+    <p class="card-number--fLM">Card Number :</p>
+    <input type="text" name="card number" id="cn" placeholder="1111-2222-3333-4444" class="auto-group-dno3-xqF">
+    <span id="cn_error"></span>
+
+    <!-- Expire date -->
+    <p class="expire-date--oqs">Expire Date :</p>
+    <input type="text" name="date" id="date" placeholder="18/12/2023" class="auto-group-bl3s-KpD">
+    <span id="date_error"></span>
+
+    <!-- ccv -->
+    <p class="ccv-B8M">CCV</p>
+    <input type="text" name="ccv" id="ccv" placeholder="123" class="auto-group-gr2d-gqo">
+    <span id="ccv_error"></span>
+
+    <!-- button -->
+    <div class="auto-group-tysx-k4y">
+      <input type="submit" id="submit1" value="Pay Now" class="auto-group-jufp-Gp1">
+      <a href="index.html" class="auto-group-y4ty-kz5">Later</a>
+    </div>
+   
+  </div>
+</div>
+</form>
+</body>

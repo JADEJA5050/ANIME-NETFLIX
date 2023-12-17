@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Login</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trade+Winds%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century+Schoolbook%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Constantia%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nobile%3A400"/>
+  <link rel="stylesheet" href="login.css"/>
+  <script>
+     $(document).ready(function () {
+      function validateFname(firstname) {
+                var firstnamePattern = /^[A-Za-z ]{2,30}$/;
+                return firstnamePattern.test(firstname);
+            }
+      function validateLname(lastname) {
+                var lastnamePattern = /^[A-Za-z ]{2,30}$/;
+                return lastnamePattern.test(lastname);
+            }
+      function validateEmail(email) {
+                var emailPattern = /^[\w\.]+@([\w]+\.)+[\w]{2,4}$/;;
+                return emailPattern.test(email);
+            }
+      function validatePassword(password) {
+                var passwordPattern =
+                    /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[A-Za-z0-9])(?!.*[/s]).{8,20}$/;
+                return passwordPattern.test(password);
+            }
+
+
+            $('#reg').submit(function (e) {
+                e.preventDefault();
+                var fn = $('#fn1').val();
+                if (fn == "") {
+                    $('#fn1_error').html("Firstname is required");
+                    $('#fn1_error').css('color', 'red');
+                    $('#fullname_status').html("");
+                    is_valid = false;
+
+                } else {
+                    if (validateFname(fn)) {
+                        $('#fullname_status').html("Fullname:: " + fn);
+                        $('#fullname_status').css('color', 'green');
+                        $('#fn1_error').html("");
+                    } else {
+                        $('#fn1_error').html(
+                            "Name contains only letters"
+                        );
+                        $('#fn1_error').css('color', 'red');
+                        $('#fullname_status').html(
+                            "");
+                        is_valid = false;
+                    }
+
+                }
+
+                var ln = $('#ln1').val();
+                if (ln == "") {
+                    $('#ln1_error').html("Lastname is required");
+                    $('#ln1_error').css('color', 'red');
+                    $('#lastname_status').html("");
+                    is_valid = false;
+
+                } else {
+                    if (validateLname(ln)) {
+                        $('#lastname_status').html("Lastname:: " + fn);
+                        $('#lastname_status').css('color', 'green');
+                        $('#ln1_error').html("");
+                    } else {
+                        $('#ln1_error').html(
+                            "Name contains only letters"
+                        );
+                        $('#ln1_error').css('color', 'red');
+                        $('#lastname_status').html(
+                            "");
+                        is_valid = false;
+                    }
+
+                }
+
+                var em = $('#email1').val();
+                if (em == "") {
+                    $('#email_error').html("Email is required Field");
+                    $('#email_error').css('color', 'red');
+                    $('#email_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validateEmail(em)) {
+                        $('#email_status').html("Email:: " + em);
+                        $('#email_status').css('color', 'green');
+                        $('#email_error').html("");
+                    } else {
+                        $('#email_error').html("Email is not valid");
+                        $('#email_error').css('color', 'red');
+                        $('#email_status').html("");
+                    }
+
+                }
+                var is_valid = true;
+                var pwd = $('#pwd1').val();
+                if (pwd == "") {
+                    $('#pwd_error').html("Password is required Field");
+                    $('#pwd_error').css('color', 'red');
+                    $('#pwd_status').html("");
+                    is_valid = false;
+                } else {
+                    if (validatePassword(pwd)) {
+                        $('#pwd_status').html("Password::" + pwd);
+                        $('#pwd_status').css('color', 'green');
+                        $('#pwd_error').html("");
+                    } else {
+                        $('#pwd_error').html(
+                            "Password must contain at least uppercase and lowercase letter, digit , special symbol."
+                        );
+                        $('#pwd_error').css('color', 'red');
+                        $('#pwd_status').html("");
+                        is_valid = false;
+                    }
+
+                }
+
+                var repwd = $('#repwd1').val();
+                if (repwd == "") {
+                    $('#repwd_error').html("Confirm Password is required Field");
+                    $('#repwd_error').css('color', 'red');
+                    $('#repwd_status').html("");
+                    is_valid = false;
+                } else {
+                    if (pwd == repwd) {
+                        $('#repwd_status').html("Confirm Password::" + repwd);
+                        $('#repwd_status').css('color', 'green');
+                        $('#repwd_error').html("");
+                    } else {
+                        $('#repwd_error').html("Password and Confirm Password not matched");
+                        $('#repwd_error').css('color', 'red');
+                        $('#repwd_status').html("");
+                        is_valid = false;
+                    }
+                }
+             
+                var result1 = $('input[type="checkbox"]:checked');
+                if (result1.length > 0) {
+                
+                    var resultcount = result1.length + " hobby/hobbies selected <br />";
+    
+                    result1.each(function () {
+                        
+                        resultcount = resultcount + $(this).val() + "<br />";
+
+                    });
+                    $('#checkbox_status').html(resultcount);
+                    $('#checkbox_status').css('color', 'green');
+                    $('#hobbies_error').html("");
+
+                } else {
+                    $('#hobbies_error').html("selecte if you are accepted");
+                    $('#hobbies_error').css('color', 'red');
+                    $('#hobbies_status').html("");
+                    is_valid = false;
+                }
+
+                if (is_valid) {
+                    this.submit();
+                }
+            });
+        });
+  </script>
+</head>
+<body>
+<form id="reg" action="index.html" method="get">
+<div class="login-1o7">
+    <!-- navbar -->
+  <a href="index.html" class="home-udb">HOME</a>
+  <a href="anime.html" class="anime-pVf">ANIME</a>
+  <a href="manga.html" class="manga-Liu">MANGA</a>
+  <div class="auto-group-9yyd-5gV">
+    <div class="auto-group-atyh-q9s">
+      <a href="movies.html" class="movies-Ypy">MOVIES</a>
+      <a href="login.html" class="login-page-J3T">LOGIN PAGE</a>
+      <a href="subcription.html" class="subcription-DgD">SUBCRIPTION</a>
+    </div>
+    <!-- main container -->
+    <div class="auto-group-dwms-9pm">
+        <!-- sign up -->
+        <p class="sign-up-XTw">Sign Up</p>
+        <!-- first and last name -->
+      <div class="auto-group-wl3k-gJu">
+        <input type="text" name="fn" id="fn1" placeholder="First Name" class="auto-group-oeup-bwf">
+        <input type="text" name="ln" id="ln1" placeholder="Last Name" class="auto-group-wcbk-G2D">
+        <span id="fn1_error"></span>
+        <span id="ln1_error"></span>
+      </div>
+      
+      <input type="text" name="em" id="email1" placeholder="Email" class="auto-group-pxtv-phw">
+      <span id="email_error"></span>
+      <input type="Password" name="pwd" id="pwd1" placeholder="Password" class="auto-group-fsht-UXb">
+      <span id="pwd_error"></span>
+      <input type="password" name="repwd" id="repwd1" placeholder="Comfirm Password" class="auto-group-6daq-iwj">
+      <span id="repwd_error"></span>
+
+      <!-- check box -->
+      <div class="auto-group-kmsx-P2H">
+        <input type="checkbox" name="hobbies" class="rectangle-7-umK">
+        <p class="i-accept-the-term-of-use-privacy-policy-ptH">I accept the term of use &amp; privacy policy</p>
+        <span id="hobbies_error"></span>
+      </div>
+
+      <!-- sign up button -->
+      <input type="submit" id="submit1" value="Sign up" class="auto-group-ru8m-M7X">
+
+      <div class="auto-group-arjv-Rt5">
+        <p class="already-have-an-account-MWq">Already have an account? </p>
+        <a href="#" class="login-here-5Bw">Login here</a>
+      </div>
+
+      <div class="auto-group-mzfb-cBs">
+        <p class="copyright--M9T">copyright ©</p>
+        <a href="#" class="netflixcom-gBj">Netflix.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+</form>
+</body>

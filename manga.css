@@ -1,0 +1,2095 @@
+/* 
+  #anime1.animate__animated{
+  opacity: 1;
+  } 
+*/
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+  margin-top: -13px;
+}
+a{
+  text-decoration: none;
+}
+/* Main div */
+.manga-qGD {
+  width: 100%;
+  height: 350rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+/* Navbar */
+.manga-qGD .navbar{
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  backdrop-filter: 15px;
+  -webkit-backdrop-filter: 15px;
+  z-index: 999;
+}
+.manga-qGD .navbar.navbar-shrink {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(8, 8, 8, 0.699);
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  transition: background-color 5 ease-in-out;
+}
+.manga-qGD .home-Pbo {
+  width: 6.6rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 4.4rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.manga-qGD .navbar.navbar-shrink .home-Pbo {
+  top: 0.3rem;
+  transition: top 0.5s ease-in-out;
+}
+.manga-qGD .manga-hcV {
+  width: 8rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 28rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.manga-qGD .navbar.navbar-shrink .manga-hcV {
+  top: 0.3rem;
+  transition: top 0.5s ease-in-out;
+}
+.manga-qGD .movies-kam {
+  width: 8.1rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 41rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.manga-qGD .navbar.navbar-shrink .movies-kam {
+  top: 0.3rem;
+  transition: top 0.5s ease-in-out;
+}
+.manga-qGD .login-page-s9b {
+  width: 12.8rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 54.1rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.manga-qGD .navbar.navbar-shrink .login-page-s9b {
+  top: 0.3rem;
+  transition: top 0.5s ease-in-out;
+}
+.manga-qGD .subcription-NMF {
+  width: 14.3rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 71.9rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.manga-qGD .navbar.navbar-shrink .subcription-NMF {
+  top: 0.3rem;
+  transition: top 0.5s ease-in-out;
+}
+.manga-qGD .anime-T7o {
+  width: 7rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 16rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.manga-qGD .navbar.navbar-shrink .anime-T7o {
+  top: 0.3rem;
+  transition: top 0.5s ease-in-out;
+}
+/* Netflix logo */
+.manga-qGD .netflixpng25-1-s7f {
+  width: 13.1rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 123.9rem;
+  top: 4.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  z-index: 1;
+}
+.manga-qGD  .navbar.navbar-shrink .netflixpng25-1-s7f {
+  top: 3.2rem;
+  left: 124.5rem;
+  width: 12.1rem;
+  height: 3.2rem;
+  transition: top 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out,left 0.5s ease-in-out ;
+}
+/* Background image */
+.manga-qGD .bgphoto-1-2rV {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.manga-qGD .background-1-Mtm {
+  width: 100%;
+  height: 92rem;
+  position: absolute;
+  left: 0;
+  top: 85rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.manga-qGD .background-2-tp9 {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 169.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.manga-qGD .background-4-pBK {
+  width: 100%;
+  height: 83.3rem;
+  position: absolute;
+  left: 0;
+  top: 324.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.manga-qGD .background-3-AK3 {
+  width: 100%;
+  height: 70rem;
+  position: absolute;
+  left: 0;
+  top: 254.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+/* Upcoming manga */
+.manga-qGD .upcoming-manga-GDP {
+  width: 68.1rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.1rem;
+  top: 26.1rem;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1.2142857143;
+  color: #b8bbc0;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* Demon slayer */
+.manga-qGD .demon-slayer-ApZ {
+  width: 19.9rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.9rem;
+  top: 34rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.5416666667;
+  color: #717882;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* Description */
+.manga-qGD .demon-slayer-kimetsu-no-yaiba-is-a-japanese-fantasy-manga-series-and-comic-book-by-koyoharu-gotouge-it-follows-tanjiro-kamado-a-young-boy-living-in-taisho-era-japan-who-becomes-the-sole-survivor-of-his-family-after-demons-kill-them-he-then-sets-out-to-save-his-sister-nezuko-who-has-transformed-into-a-demon-V77 {
+  width: 55.6rem;
+  height: 8rem;
+  position: absolute;
+  left: 9.2rem;
+  top: 43.4rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
+/* photo */
+.manga-qGD .ch1-1-N2V {
+  width: 61.7rem;
+  height: 18rem;
+  position: absolute;
+  left: 4.5rem;
+  top: 69.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+/* Populer Manga list */
+.manga-qGD .popular-manga-list-2vM {
+  width: 24.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 91.8rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.manga-qGD .line-8Ch {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 95.1rem;
+}
+.manga-qGD .line-8Ch .vector-5-4s3 {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.manga-qGD .line-8Ch .vector-6-CCZ {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+/* Div 1 */
+.manga-qGD .rectangle-47-kMo {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 104rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime1.animate__animated{
+  opacity: 1;
+}
+/* Div 1 image */
+.manga-qGD .rectangle-43-KJR {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 105.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime2.animate__animated{
+  opacity: 1;
+}
+/* div 1 title */
+.manga-qGD .curtain-up-Uj3 {
+  width: 9.5rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 105.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime3.animate__animated{
+  opacity: 1;
+}
+/* div 1 description */
+.manga-qGD .decorative-fabric-commonly-hung-to-regulate-the-admission-of-light-at-windows-and-to-prevent-drafts-from-door-or-window-openings-T1K {
+  width: 11.1rem;
+  height: 16rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 110.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime4.animate__animated{
+  opacity: 1;
+}
+
+/* div 2  */
+.manga-qGD .rectangle-48-qXf {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 103.9rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime5.animate__animated{
+  opacity: 1;
+}
+/* div 2 image */
+.manga-qGD .rectangle-49-ATT {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 105.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime6.animate__animated{
+  opacity: 1;
+}
+/* div 2 title */
+.manga-qGD .dragon-ball-UjT {
+  width: 10.1rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 105.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime7.animate__animated{
+  opacity: 1;
+}
+/* div 2 description */
+.manga-qGD .the-series-begins-with-a-young-monkey-tailed-boy-named-goku-befriending-a-teenage-girl-named-bulma-JAM {
+  width: 11.5rem;
+  height: 14rem;
+  position: absolute;
+  left: 58rem;
+  top: 109.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime8.animate__animated{
+  opacity: 1;
+}
+
+/* div 3 */
+.manga-qGD .rectangle-50-6LZ {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 104rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime9.animate__animated{
+  opacity: 1;
+}
+/* div 3 image */
+.manga-qGD .rectangle-51-fHB {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 105.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime10.animate__animated{
+  opacity: 1;
+}
+/* div 3 title */
+.manga-qGD .earthchild-P5j {
+  width: 9.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 93.4rem;
+  top: 105.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime11.animate__animated{
+  opacity: 1;
+}
+/* div 3 description */
+.manga-qGD .earthchild-was-born-out-of-the-high-demand-for-a-fresh-elegantly-fun-and-sophisticated-childrens-wear-brand-okm {
+  width: 10.8rem;
+  height: 16rem;
+  position: absolute;
+  left: 93.4rem;
+  top: 110.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime12.animate__animated{
+  opacity: 1;
+}
+
+/* div 4 */
+.manga-qGD .rectangle-52-PDB {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 103.8rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime13.animate__animated{
+  opacity: 1;
+}
+/* div 4 image */
+.manga-qGD .rectangle-53-Nau {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 105.5rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime14.animate__animated{
+  opacity: 1;
+}
+/* div 4 title */
+.manga-qGD .taisei-6F3 {
+  width: 5.1rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 128.8rem;
+  top: 105.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime15.animate__animated{
+  opacity: 1;
+}
+/* div 4 description */
+.manga-qGD .taisen-is-a-ninja-in-training-whose-wild-antics-amuse-his-teammates-Vn1 {
+  width: 10.4rem;
+  height: 12rem;
+  position: absolute;
+  left: 128.8rem;
+  top: 110rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime16.animate__animated{
+  opacity: 1;
+}
+
+/* div 5 */
+.manga-qGD .rectangle-54-aXB {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 138.1rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime17.animate__animated{
+  opacity: 1;
+}
+/* div 5 image */
+.manga-qGD .rectangle-55-ka5 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 139.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime18.animate__animated{
+  opacity: 1;
+}
+/* div 5 title */
+.manga-qGD .dricam-4Ks {
+  width: 6.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 139.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime19.animate__animated{
+  opacity: 1;
+}
+/* div 5 description */
+.manga-qGD .todoroki-is-a-natural-drifting-genius-just-wants-to-put-driving-aside-and-live-out-a-normal-comfy-university-life-6Ed {
+  width: 11.2rem;
+  height: 14rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 144.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime20.animate__animated{
+  opacity: 1;
+}
+
+/* div 6 */
+.manga-qGD .rectangle-58-FeR {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 138.1rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime21.animate__animated{
+  opacity: 1;
+}
+/* div 6 image */
+.manga-qGD .rectangle-59-dey {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 139.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime22.animate__animated{
+  opacity: 1;
+}
+/* div 6 title */
+.manga-qGD .do-retry-May {
+  width: 7.6rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 139.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime23.animate__animated{
+  opacity: 1;
+}
+/* div 6 description */
+.manga-qGD .to-try-to-do-something-again-because-you-have-not-been-successful-the-first-time-dont-worry-if-you-make-a-mistake-you-can-always-retry-until-you-get-the-result-you-want-awb {
+  width: 11.2rem;
+  height: 22rem;
+  position: absolute;
+  left: 58rem;
+  top: 144.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime24.animate__animated{
+  opacity: 1;
+}
+
+/* div 7 */
+.manga-qGD .rectangle-60-T8D {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 138.1rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime25.animate__animated{
+  opacity: 1;
+}
+/* div 7 image */
+.manga-qGD .rectangle-61-3MK {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 139.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime26.animate__animated{
+  opacity: 1;
+}
+/* div 7 title */
+.manga-qGD .jujustu-k-m2R {
+  width: 8.5rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 139.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime27.animate__animated{
+  opacity: 1;
+}
+/* div 7 description */
+.manga-qGD .he-hears-about-a-cursed-talisman-the-finger-of-sukuna-a-demon-and-its-being-targeted-by-other-cursed-beings-B4D {
+  width: 11.2rem;
+  height: 14rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 144.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime28.animate__animated{
+  opacity: 1;
+}
+
+/* div 8 */
+.manga-qGD .rectangle-62-ftV {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 137.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime29.animate__animated{
+  opacity: 1;
+}
+/* div 8 image */
+.manga-qGD .rectangle-63-qgV {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 139.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime30.animate__animated{
+  opacity: 1;
+}
+/* div 8 title */
+.manga-qGD .heart-gear-ma9 {
+  width: 9.5rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 139.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime31.animate__animated{
+  opacity: 1;
+}
+/* div 8 description */
+.manga-qGD .teenage-girl-roue-lives-a-peaceful-life-with-her-uncle-a-gear-named-zett-she-spends-her-days-exploring-the-ruins-of-the-old-world-destroyed-by-world-war-iii-two-hundred-years-ago-QLH {
+  width: 11.2rem;
+  height: 22rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 143.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime32.animate__animated{
+  opacity: 1;
+}
+
+
+/* new releases list section */
+
+.manga-qGD .new-releases-list-jTP {
+  width: 22.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 175.8rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.manga-qGD .line-dof {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 179.1rem;
+}
+.manga-qGD .line-dof .vector-5-ZxD {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.manga-qGD .line-dof .vector-6-7Tw {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+
+/* section 2 div 1 */
+.manga-qGD .rectangle-64-Mpm {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 188.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime33.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 1 image */
+.manga-qGD .rectangle-65-B37 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 190.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime34.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 1 title */
+.manga-qGD .land-lock-JdX {
+  width: 9rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 190.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime35.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 1 description */
+.manga-qGD .a-piece-of-property-that-has-no-direct-legal-access-road-except-an-adjacent-lot-6GZ {
+  width: 11.1rem;
+  height: 10rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 194.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime36.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 2 */
+.manga-qGD .rectangle-68-QyF {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 188.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime37.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 2 image */
+.manga-qGD .rectangle-69-dr1 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 190.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime38.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 2 title */
+.manga-qGD .sasuke-story-xtH {
+  width: 11.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 190.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime39.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 2 description */
+.manga-qGD .uchiha-sasuke-heads-for-an-astronomical-observatory-far-from-the-land-of-fire-YZf {
+  width: 9.6rem;
+  height: 12rem;
+  position: absolute;
+  left: 58rem;
+  top: 194.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime40.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 3  */
+.manga-qGD .rectangle-72-M3w {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 188.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime41.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 3 image */
+.manga-qGD .rectangle-73-k65 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 190.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime42.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 3 title */
+.manga-qGD .konoha-swP {
+  width: 7.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 190.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime43.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 3 description */
+.manga-qGD .a-comedic-story-in-the-set-in-the-universe-of-naruto-that-features-kakashi-guy-and-mirai-sarutobi-along-with-the-rest-of-the-new-generation-HCV {
+  width: 11.2rem;
+  height: 18rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 194.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime44.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 4  */
+.manga-qGD .rectangle-76-HuK {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 188.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime45.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 4 image */
+.manga-qGD .rectangle-77-VVb {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 190.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime46.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 4 title */
+.manga-qGD .one-piece-Re9 {
+  width: 8.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 190.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime47.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 4 description */
+.manga-qGD .one-piece-is-a-shonen-action-adventure-manga-written-and-drawn-by-eiichiro-oda-serialized-in-the-anthology-weekly-shonen-jump-E3s {
+  width: 11rem;
+  height: 16rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 194.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime48.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 5 */
+.manga-qGD .rectangle-66-1nq {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 222.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime49.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 5 image */
+.manga-qGD .rectangle-67-bW9 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 224.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime50.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 5 title */
+.manga-qGD .drstone-Kh3 {
+  width: 7.4rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 224.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime51.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 5 description */
+.manga-qGD .the-story-follows-senku-ishigami-a-scientific-genius-who-plans-to-rebuild-civilization-after-humanity-was-mysteriously-petrified-for-3700-years-Ynm {
+  width: 11.2rem;
+  height: 18rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 228.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime52.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 6  */
+.manga-qGD .rectangle-70-g3b {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 222.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime53.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 6 image */
+.manga-qGD .rectangle-71-qah {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 224.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime54.animate__animated{
+  opacity: 1;
+}
+/*  section 2 div 6 title */
+.manga-qGD .k-garden-MJ9 {
+  width: 8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 224.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime55.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 6 description */
+.manga-qGD .the-series-follows-anzu-a-kindergarten-girl-who-is-in-love-with-her-teacher-and-tries-to-win-his-affection-but-always-fails-yYV {
+  width: 10.9rem;
+  height: 16rem;
+  position: absolute;
+  left: 58rem;
+  top: 228.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime56.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 7 */
+.manga-qGD .rectangle-74-b6h {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 222.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime57.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 7 image  */
+.manga-qGD .rectangle-75-nws {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 224.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime58.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 7 title */
+.manga-qGD .exorcist-iqX {
+  width: 6.9rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 224.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime59.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 7 description */
+.manga-qGD .one-day-yajimas-life-gets-turned-upside-down-when-he-finds-a-strange-room-hidden-in-his-school-WjT {
+  width: 11.2rem;
+  height: 12rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 228.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime60.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 8 */
+.manga-qGD .rectangle-78-it9 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 222.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime61.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 8 image */
+.manga-qGD .rectangle-79-JrM {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 224.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime62.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 8 title */
+.manga-qGD .mightiest-Ezu {
+  width: 8.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 224.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime63.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 8 description */
+.manga-qGD .the-story-follows-light-yagami-a-genius-high-school-student-who-discovers-a-mysterious-notebook-the-death-note-3Qd {
+  width: 11.2rem;
+  height: 16rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 228.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime64.animate__animated{
+  opacity: 1;
+}
+
+/* dark fantasy manga section  */
+
+.manga-qGD .dark-fantasy-manga-kMX {
+  width: 26.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 261.1rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.manga-qGD .line-eho {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 264.4rem;
+}
+.manga-qGD .line-eho .vector-5-Bxd {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.manga-qGD .line-eho .vector-6-8N5 {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+
+
+/* section 3 div 1 */
+.manga-qGD .rectangle-80-Rk5 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 271.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime65.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 1 image */
+.manga-qGD .rectangle-81-c3s {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 273.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime66.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 1 title */
+.manga-qGD .phantom-vaM {
+  width: 8.6rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 273.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime67.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 1 description */
+.manga-qGD .riku-is-a-girl-who-likes-helping-people-at-first-she-thought-she-had-the-sixth-sense-to-detect-danger-when-in-reality-M7w {
+  width: 9.7rem;
+  height: 16rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 277.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime68.animate__animated{
+  opacity: 1;
+}
+
+
+/* section 3 div 2 */
+.manga-qGD .rectangle-84-q6H {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 271.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime69.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 2 image */
+.manga-qGD .rectangle-85-Dcd {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 273.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime70.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 2 title */
+.manga-qGD .vampire-x4R {
+  width: 7.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 273.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime71.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 2 description */
+.manga-qGD .despite-the-occurrence-of-vampire-like-creatures-in-these-ancient-civilizations-the-folklore-for-the-entity-known-today-as-the-vampire-A8Z {
+  width: 11.2rem;
+  height: 18rem;
+  position: absolute;
+  left: 58rem;
+  top: 277.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime72.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 3 */
+.manga-qGD .rectangle-88-CtZ {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 271.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime73.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 3 image */
+.manga-qGD .rectangle-89-oNZ {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 273.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime74.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 3 title */
+.manga-qGD .shiyuki-j1K {
+  width: 6.6rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 273.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime75.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 3 description */
+.manga-qGD .one-day-zen-and-izana-had-a-full-blown-argument-that-shirayiki-hears-and-runs-away-in-fear-for-her-and-her-new-childs-life-jNh {
+  width: 11.2rem;
+  height: 14rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 277.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime76.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 4 */
+.manga-qGD .rectangle-92-4Tb {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 271.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime77.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 4 image*/
+.manga-qGD .rectangle-93-3KX {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 273.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime78.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 4 title */
+.manga-qGD .tokyo-ghoul-Z2y {
+  width: 11rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 127.8rem;
+  top: 273.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime79.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 4 description */
+.manga-qGD .tokyo-ghoul-is-set-in-an-alternate-reality-where-ghouls-creatures-that-look-like-normal-people-but-can-only-survive-by-eating-human-flesh-bCd {
+  width: 11.2rem;
+  height: 18rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 277.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime80.animate__animated{
+  opacity: 1;
+}
+
+
+/* section 3 div 5 */
+.manga-qGD .rectangle-82-Rn1 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 305.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime81.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 5 image */
+.manga-qGD .rectangle-83-qKw {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 307.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime82.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 5 title */
+.manga-qGD .twin-star-xfT {
+  width: 8.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 307.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime83.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 5 description */
+.manga-qGD .sanrio-europe-kiki-and-lala-the-little-twin-stars-were-born-on-the-star-of-compassion-xX3 {
+  width: 11.2rem;
+  height: 10rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 311.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime84.animate__animated{
+  opacity: 1;
+}
+
+
+/* section 3 div 6 */
+.manga-qGD .rectangle-86-TWy {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 305.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime85.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 6 image */
+.manga-qGD .rectangle-87-rZ7 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 307.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime86.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 6 title */
+.manga-qGD .dedly-sins-nhf {
+  width: 9.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 307.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime87.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 6 description */
+.manga-qGD .first-off-the-premise-tsubasa-wakes-up-in-the-hospital-surrounded-by-people-who-claim-they-are-his-family-zG1 {
+  width: 10.9rem;
+  height: 14rem;
+  position: absolute;
+  left: 58rem;
+  top: 311.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime88.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 7 */
+.manga-qGD .rectangle-90-1Ud {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 305.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime89.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 7 image */
+.manga-qGD .rectangle-91-Cp1 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 307.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime90.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div title */
+.manga-qGD .nio-lation-L9X {
+  width: 9.1rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 307.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+  white-space: nowrap;
+}
+#anime91.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 7 description */
+.manga-qGD .obito-uchiha-is-one-of-the-main-antagonists-of-the-naruto-franchise-he-is-a-member-of-konohagakures-uchiha-clan-LG1 {
+  width: 10.9rem;
+  height: 14rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 311.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime92.animate__animated{
+  opacity: 1;
+}
+
+
+/* section 3 div 8 */
+.manga-qGD .rectangle-94-dYd {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 305.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime93.animate__animated{
+  opacity: 1;
+}
+
+
+/* section 3 div 8 image */
+.manga-qGD .rectangle-95-BTf {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 307.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime94.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 8 title */
+.manga-qGD .ghost-girl-ueZ {
+  width: 8.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 307.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime95.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 8 description */
+.manga-qGD .hinata-is-introduced-in-part-i-of-the-naruto-manga-during-the-chunin-exams-a-series-of-tests-that-are-meant-to-upgrade-her-status-as-a-rookie-YQh {
+  width: 11.2rem;
+  height: 18rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 311.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime96.animate__animated{
+  opacity: 1;
+}
+
+/* footer */
+
+.manga-qGD .faq-ntZ {
+  width: 4.3rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.manga-qGD .terms-of-use-J6D {
+  width: 12.9rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 32.8rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.manga-qGD .privacy-policy-c6u {
+  width: 13.6rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 50.2rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.manga-qGD .netflix-KX7 {
+  width: 17.2rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 68.3rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.manga-qGD .contact-us-qEZ {
+  width: 11.1rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 17.2rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}

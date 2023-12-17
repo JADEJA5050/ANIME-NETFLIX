@@ -1,0 +1,2032 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+/* Main section */
+.movies-5r9 {
+  width: 100%;
+  height: 350rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+/* navbar */
+.movies-5r9 .navbar{
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  backdrop-filter: 15px;
+  -webkit-backdrop-filter: 15px;
+  z-index: 999;
+}
+.movies-5r9 .navbar.navbar-shrink {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(8, 8, 8, 0.699);
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  transition: background-color 5 ease-in-out;
+}
+.movies-5r9 .home-hvh {
+  width: 6.6rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 4.4rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .navbar.navbar-shrink .home-hvh {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.movies-5r9 .manga-oyj {
+  width: 8rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 28rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .navbar.navbar-shrink .manga-oyj {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.movies-5r9 .movies-EZF {
+  width: 8.1rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 41rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .navbar.navbar-shrink .movies-EZF{
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.movies-5r9 .login-page-9gD {
+  width: 12.8rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 54.1rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .navbar.navbar-shrink .login-page-9gD {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.movies-5r9 .subcription-Two {
+  width: 14.3rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 71.9rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .navbar.navbar-shrink .subcription-Two {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.movies-5r9 .anime-aWd {
+  width: 7rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 16rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .navbar.navbar-shrink .anime-aWd {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+/* Netflix logo */
+.movies-5r9 .netflixpng25-1-yzh {
+  width: 13.1rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 123.9rem;
+  top: 4.6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.movies-5r9 .navbar.navbar-shrink .netflixpng25-1-yzh {
+  top: 2.6rem;
+  left: 124.5rem;
+  width: 12.1rem;
+  height: 3.2rem;
+  transition: top 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out,left 0.5s ease-in-out ;
+}
+/* background image */
+.movies-5r9 .bgphoto-1-fpM {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.movies-5r9 .background-1-zbj {
+  width: 100%;
+  height: 92.5rem;
+  position: absolute;
+  left: 0;
+  top: 85.5rem;
+  object-fit: cover;
+  vertical-align: top;
+  margin-top: -5px;
+}
+.movies-5r9 .background-2-NGq {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 169.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.movies-5r9 .background-4-Jfb {
+  width: 100%;
+  height: 83.3rem;
+  position: absolute;
+  left: 0;
+  top: 324.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.movies-5r9 .background-3-XTo {
+  width: 100%;
+  height: 70rem;
+  position: absolute;
+  left: 0;
+  top: 254.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+/* Title */
+.movies-5r9 .all-time-favorite-FH3 {
+  width: 57.4rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.1rem;
+  top: 26.1rem;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1.2142857143;
+  color: #b8bbc0;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* your name */
+.movies-5r9 .your-name-Z2q {
+  width: 13.5rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.9rem;
+  top: 34rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.5416666667;
+  color: #717882;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+/* description */
+.movies-5r9 .your-name-is-a-touching-emotional-dramatic-movie-about-two-character-taki-and-mitsuha-who-begin-waking-up-in-each-others-bodies-every-few-days-they-learn-to-work-together-to-make-both-their-lives-as-normal-as-possible-and-eventually-both-attempt-to-visit-one-another-yrH {
+  width: 55.4rem;
+  height: 6rem;
+  position: absolute;
+  left: 9.2rem;
+  top: 43.4rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
+
+/* photo */
+.movies-5r9 .ch1-1-3hj {
+  width: 61.7rem;
+  height: 18rem;
+  position: absolute;
+  left: 4.5rem;
+  top: 69.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+/* populare movie list */
+.movies-5r9 .popular-movie-list-uXf {
+  width: 23.5rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 91.8rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .line-od3 {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 95.1rem;
+}
+.movies-5r9 .line-od3 .vector-5-kHP {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.movies-5r9 .line-od3 .vector-6-GmX {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+
+/* div 1 */
+.movies-5r9 .rectangle-47-JSd {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 104rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime1.animate__animated{
+  opacity: 1;
+}
+/* div 1 image */
+.movies-5r9 .rectangle-43-sPF {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 105.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime2.animate__animated{
+  opacity: 1;
+}
+/* div 1 title */
+.movies-5r9 .whisker-away-SjB {
+  width: 7.5rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 105.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  object-position: 0;
+  opacity: 0;
+}
+#anime3.animate__animated{
+  opacity: 1;
+}
+/* div 1 description */
+.movies-5r9 .an-anime-fantasy-in-which-a-free-spirited-girl-nicknamed-muge-finds-a-way-to-transform-into-a-cat-in-order-to-get-to-know-her-crush-hinode-better-ELH {
+  width: 11.1rem;
+  height: 18rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 112.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime4.animate__animated{
+  opacity: 1;
+}
+
+/* div 2 */
+.movies-5r9 .rectangle-48-ba9 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 103.9rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime5.animate__animated{
+  opacity: 1;
+}
+/* div 2 image */
+.movies-5r9 .rectangle-49-X6R {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 105.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime6.animate__animated{
+  opacity: 1;
+}
+/* div 2 title */
+.movies-5r9 .asasination-T2R {
+  width: 10.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 105.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime7.animate__animated{
+  opacity: 1;
+}
+/* div 2 description */
+.movies-5r9 .assassination-is-the-willful-killing-by-a-sudden-secret-or-planned-attack-of-a-personespecially-if-prominent-or-important-fpu {
+  width: 11.5rem;
+  height: 16rem;
+  position: absolute;
+  left: 58rem;
+  top: 109.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime8.animate__animated{
+  opacity: 1;
+}
+/* div 3 */
+.movies-5r9 .rectangle-50-Xbf {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 104rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime9.animate__animated{
+  opacity: 1;
+}
+/* div 3 title */
+.movies-5r9 .backflip-xE5 {
+  width: 7.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 93.4rem;
+  top: 105.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime11.animate__animated{
+  opacity: 1;
+}
+/* div 3 description */
+.movies-5r9 .depicts-the-lives-of-high-school-boys-who-are-fascinated-by-rhythmic-gymnastics-QvM {
+  width: 9.6rem;
+  height: 12rem;
+  position: absolute;
+  left: 93.4rem;
+  top: 110.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime12.animate__animated{
+  opacity: 1;
+}
+/* div 3 image */
+.movies-5r9 .rectangle-51-Ttd {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 105.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime10.animate__animated{
+  opacity: 1;
+}
+/* div 4 */
+.movies-5r9 .rectangle-52-MUD {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 103.8rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime13.animate__animated{
+  opacity: 1;
+}
+/* div 4 description */
+.movies-5r9 .shenxiu-lost-her-mother-and-has-to-deal-with-an-uncaring-father-on-a-cruise-she-gets-swept-away-by-storm-and-finds-a-magical-submarine-restaurant-3rq {
+  width: 10.6rem;
+  height: 20rem;
+  position: absolute;
+  left: 128.8rem;
+  top: 110rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime16.animate__animated{
+  opacity: 1;
+}
+/* div 4 image */
+.movies-5r9 .rectangle-53-EwK {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 105.5rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime14.animate__animated{
+  opacity: 1;
+}
+/* div 4 title */
+.movies-5r9 .deep-sea-42D {
+  width: 8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 128.8rem;
+  top: 105.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime15.animate__animated{
+  opacity: 1;
+}
+/* div 5 */
+.movies-5r9 .rectangle-54-wfw {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 138.1rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime17.animate__animated{
+  opacity: 1;
+}
+/* div 5 description */
+.movies-5r9 .after-his-family-was-brutally-murdered-and-his-sister-turned-into-a-demon-tanjiro-kamados-journey-as-a-demon-slayer-began-fbw {
+  width: 11rem;
+  height: 16rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 146.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime20.animate__animated{
+  opacity: 1;
+}
+/* div 5 image */
+.movies-5r9 .rectangle-55-Y9w {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 139.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime18.animate__animated{
+  opacity: 1;
+}
+/* div 5 title */
+.movies-5r9 .deamon-slayer-4ty {
+  width: 7.8rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 139.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime19.animate__animated{
+  opacity: 1;
+}
+/* div 6  */
+.movies-5r9 .rectangle-58-SnD {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 138.1rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime21.animate__animated{
+  opacity: 1;
+}
+/* div 6 description */
+.movies-5r9 .the-new-stage-to-haruka-nanse-is-sydney-before-leaving-japan-haruka-accidentally-confronts-his-rival-who-fought-in-a-tournament-AiD {
+  width: 10.7rem;
+  height: 18rem;
+  position: absolute;
+  left: 58rem;
+  top: 144.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime24.animate__animated{
+  opacity: 1;
+}
+/* div 6 image  */
+.movies-5r9 .rectangle-59-dLu {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 139.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime22.animate__animated{
+  opacity: 1;
+}
+/* div 6 title  */
+.movies-5r9 .final-stroke-A5w {
+  width: 9.9rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 139.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime23.animate__animated{
+  opacity: 1;
+}
+/* div 7 */
+.movies-5r9 .rectangle-60-U6d {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 138.1rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime25.animate__animated{
+  opacity: 1;
+}
+/* div 7 description */
+.movies-5r9 .a-year-has-passed-since-the-events-of-ssssgridman-the-world-is-at-peace-and-no-one-except-for-rikka-and-utsumi-remembers-the-kaiju-gridman-or-akane-shinjou-ZnH {
+  width: 11.1rem;
+  height: 20rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 146rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime28.animate__animated{
+  opacity: 1;
+}
+/* div 7 image */
+.movies-5r9 .rectangle-61-QY1 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 139.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime26.animate__animated{
+  opacity: 1;
+}
+/* div 7 title */
+.movies-5r9 .gridman-universe-Kus {
+  width: 8.1rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 139.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime.animate__animated{
+  opacity: 1;
+}
+/* div 8  */
+.movies-5r9 .rectangle-62-d9s {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 137.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime29.animate__animated{
+  opacity: 1;
+}
+/* div 8 description */
+.movies-5r9 .the-official-synopsis-of-hells-paradise-reads-a-squad-of-prisoners-and-their-guards-are-sent-to-investigate-a-mysterious-island-MLm {
+  width: 11.2rem;
+  height: 16rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 143.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime32.animate__animated{
+  opacity: 1;
+}
+/* div 8 image */
+.movies-5r9 .rectangle-63-cnV {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 139.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime30.animate__animated{
+  opacity: 1;
+}
+/* div 8 title */
+.movies-5r9 .hell-paradise-LyP {
+  width: 11.4rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 127.4rem;
+  top: 139.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime31.animate__animated{
+  opacity: 1;
+}
+
+
+/* new releases list */
+.movies-5r9 .new-releases-list-Q73 {
+  width: 22.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 175.8rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .line-6Vf {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 179.1rem;
+}
+.movies-5r9 .line-6Vf .vector-5-qCM {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.movies-5r9 .line-6Vf .vector-6-Ni5 {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+
+
+
+
+ /* section 2 div 1  */
+.movies-5r9 .rectangle-64-Nuf {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 188.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime33.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 1 description */
+.movies-5r9 .nagate-tanikaze-trains-to-become-a-garde-pilot-and-defend-the-sidonia-from-a-hostile-alien-species-called-gauna-WFB {
+  width: 11.1rem;
+  height: 14rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 196.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime36.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 1 image */
+.movies-5r9 .rectangle-65-NoB {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 190.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime34.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 1 title */
+.movies-5r9 .knights-of-sidonia-WeV {
+  width: 4.4rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 190.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime35.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 2 */
+.movies-5r9 .rectangle-68-Dz1 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: rem;
+  left: 38.7rem;
+  top: 188.6rem;
+  z-index: 1;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime37.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 2 description */
+.movies-5r9 .a-japanese-animated-movie-about-a-4-year-old-boy-whos-bored-and-upset-about-being-a-new-big-brother-and-ends-up-time-traveling-to-meet-family-members-from-the-future-and-past-kyw {
+  width: 11.2rem;
+  height: 22rem;
+  position: absolute;
+  left: 58rem;
+  top: 193.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime40.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 2 image */
+.movies-5r9 .rectangle-69-pD7 {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 190.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime38.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 2 title */
+.movies-5r9 .mirai-Yuo {
+  width: 4.4rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 58rem;
+  top: 190.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime39.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 3 */
+.movies-5r9 .rectangle-72-bXP {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 188.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime41.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 3 description */
+.movies-5r9 .molecules-underwent-reactions-that-led-to-the-formation-of-prebiotic-compounds-like-amino-acids-81X {
+  width: 11.1rem;
+  height: 14rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 196.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime44.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 3 image */
+.movies-5r9 .rectangle-73-zpR {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 190.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime42.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 3 title */
+.movies-5r9 .our-little-pond-vCH {
+  width: 8.3rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 190.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime43.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 4 */
+.movies-5r9 .rectangle-76-x3B {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 188.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime45.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 4 description */
+.movies-5r9 .hanagaki-takemichi-lives-an-unsatisfying-life-right-up-until-his-death-waking-up-12-years-in-the-past-he-reckons-with-the-eventual-fate-of-his-friends-and-tries-to-prevent-unfortunate-future-sfw {
+  width: 11.5rem;
+  height: 22rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 193.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime48.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 4 image */
+.movies-5r9 .rectangle-77-7aH {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 190.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime46.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 4 title */
+.movies-5r9 .revengers-Euo {
+  width: 8.7rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 190.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime47.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 5 */
+.movies-5r9 .rectangle-66-8Qy {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 222.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime49.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 5 description */
+.movies-5r9 .sasaki-and-miyano-follows-the-story-of-two-male-high-school-students-as-their-friendship-gradually-becomes-romantic-TTF {
+  width: 11.2rem;
+  height: 14rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 230.4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime52.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 5 image */
+.movies-5r9 .rectangle-67-8ZP {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 224.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime50.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 5 title */
+.movies-5r9 .sasaki-and-miyano-TLm {
+  width: 9.8rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 224.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime51.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 6 */
+.movies-5r9 .rectangle-70-T1B {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 222.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime53.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 6 description */
+.movies-5r9 .an-urban-legend-speaks-of-a-summer-ghost-a-spirit-girl-who-appears-when-fireworks-are-set-off-kW5 {
+  width: 9.8rem;
+  height: 14rem;
+  position: absolute;
+  left: 58rem;
+  top: 230.4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime56.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 6 image */
+.movies-5r9 .rectangle-71-2Tb {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 224.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime54.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 6 title */
+.movies-5r9 .summer-ghost-x6M {
+  width: 7.7rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 58rem;
+  top: 224.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime55.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 7  */
+.movies-5r9 .rectangle-74-cqo {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 222.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime57.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 7 description */
+.movies-5r9 .a-modern-action-adventure-road-story-where-a-17-year-old-girl-named-suzume-helps-a-mysterious-young-man-close-doors-from-the-other-side-that-are-releasing-disasters-all-over-in-japan-YjT {
+  width: 11rem;
+  height: 22rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 227.9rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime60.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 7 image */
+.movies-5r9 .rectangle-75-C3K {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 224.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime58.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 7 title */
+.movies-5r9 .suzume-XLV {
+  width: 6.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 224.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime59.animate__animated{
+  opacity: 1;
+}
+
+/* section 2 div 8  */
+.movies-5r9 .rectangle-78-9ms {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 222.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime61.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 8 description */
+.movies-5r9 .the-swallowtail-butterfly-even-as-caterpillars-they-are-impressive-beasties-with-bulging-horns-to-frighten-predators-tUZ {
+  width: 11rem;
+  height: 14rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 230.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime64.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 8 image */
+.movies-5r9 .rectangle-79-Agy {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 224.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime62.animate__animated{
+  opacity: 1;
+}
+/* section 2 div 8 title */
+.movies-5r9 .swallowtail-butterfly-Vz9 {
+  width: 10.5rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 224.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime63.animate__animated{
+  opacity: 1;
+}
+
+/* Dark fantasy manga */
+.movies-5r9 .dark-fantasy-manga-iuP {
+  width: 26.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 261.1rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.movies-5r9 .line-pxR {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 264.4rem;
+}
+.movies-5r9 .line-pxR .vector-5-NDF {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.movies-5r9 .line-pxR .vector-6-Jsb {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+/* section 3 div 1 */
+.movies-5r9 .rectangle-80-kqf {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 271.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime65.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 1 description */
+.movies-5r9 .after-helping-a-cat-a-seventeen-year-old-girl-finds-herself-involuntarily-engaged-to-a-cat-prince-in-a-magical-world-where-her-only-hope-of-freedom-lies-with-a-dapper-cat-statuette-come-to-life-GZ7 {
+  width: 11.9rem;
+  height: 22rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 276.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime68.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 1 image */
+.movies-5r9 .rectangle-81-u6H {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 273.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime66.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 1 title */
+.movies-5r9 .cat-returns-RaR {
+  width: 9.6rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 273.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime67.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 2 */
+.movies-5r9 .rectangle-84-L6M {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 271.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime69.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 2 description */
+.movies-5r9 .shin-is-an-ordinary-high-school-boy-living-in-tokyo-one-day-he-meets-a-boy-called-jin-who-looks-exactly-like-him-and-claims-that-he-comes-from-another-world-4Y9 {
+  width: 11rem;
+  height: 20rem;
+  position: absolute;
+  left: 58rem;
+  top: 279.4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime72.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 2 image */
+.movies-5r9 .rectangle-85-7WR {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 273.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime70.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 2 title */
+.movies-5r9 .the-relative-worlds-SHo {
+  width: 10rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 58rem;
+  top: 273.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime71.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 3 */
+.movies-5r9 .rectangle-88-84q {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 271.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime73.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 3 discription */
+.movies-5r9 .on-an-island-off-the-coast-of-okinawa-two-young-men-meet-on-a-beach-shun-hashimoto-a-gay-novelist-and-mio-chibana-a-somber-high-school-student-3hb {
+  width: 11.2rem;
+  height: 20rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 279.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime76.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 3 image */
+.movies-5r9 .rectangle-89-VpV {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 273.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime75.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 3 title */
+.movies-5r9 .the-stranger-by-the-shore-cPK {
+  width: 10.4rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 273.3rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.4736842105;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime74.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 4 */
+.movies-5r9 .rectangle-92-vZ7 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 271.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime77.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 4 description */
+.movies-5r9 .audrey-a-working-class-student-is-rejected-by-all-but-one-of-her-college-choices-as-her-grades-were-average-as-she-needed-to-work-while-in-school-FLV {
+  width: 11.1rem;
+  height: 18rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 276.9rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime80.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 4 image */
+.movies-5r9 .rectangle-93-hiH {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 273.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime78.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 4 title*/
+.movies-5r9 .the-summer-qJh {
+  width: 11rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 127.8rem;
+  top: 273.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime79.animate__animated{
+  opacity: 1;
+}
+
+/* section 3 div 5 */
+.movies-5r9 .rectangle-82-8Dw {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 305.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime81.animate__animated{
+  opacity: 1;
+}
+/* section 3 div5 description  */
+.movies-5r9 .kaoru-tono-is-on-his-way-home-from-school-when-he-wanders-into-a-tunnel-one-day-rumor-has-it-this-tunnel-can-grant-you-any-wish-but-if-you-will-lose-many-years-of-life-rfj {
+  width: 11.1rem;
+  height: 20rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 313.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime84.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 5  image*/
+.movies-5r9 .rectangle-83-Vih {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 307.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime82.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 5 title */
+.movies-5r9 .the-tunnel-summer-pW5 {
+  width: 9.6rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 22.9rem;
+  top: 307.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime83.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 6 */
+.movies-5r9 .rectangle-86-Xq3 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.7rem;
+  top: 305.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime85.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 6 description */
+.movies-5r9 .first-off-the-premise-tsubasa-wakes-up-in-the-hospital-surrounded-by-people-who-claim-they-are-his-family-s8D {
+  width: 10.9rem;
+  height: 14rem;
+  position: absolute;
+  left: 58rem;
+  top: 313.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime88.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 6 image */
+.movies-5r9 .rectangle-87-L1o {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 40.3rem;
+  top: 307.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime86.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 6 title*/
+.movies-5r9 .lve-loved-before-FPf {
+  width: 8.9rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 58rem;
+  top: 307.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime87.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 7 */
+.movies-5r9 .rectangle-94-8Yh {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 108.9rem;
+  top: 305.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime89.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 7 description */
+.movies-5r9 .set-during-a-period-of-exceptionally-rainy-weather-high-school-from-his-troubled-rural-home-to-tokyo-and-befriends-an-orphan-girl-who-can-manipulate-the-weather-4SM {
+  width: 11.1rem;
+  height: 20rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 313.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime92.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 7 image */
+.movies-5r9 .rectangle-95-hkD {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 110.5rem;
+  top: 307.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime90.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 7 title */
+.movies-5r9 .weathring-with-you-RgD {
+  width: 9.4rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 128.2rem;
+  top: 307.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime91.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 8 */
+.movies-5r9 .rectangle-90-utD {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 305.7rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime93.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 8  ddescription*/
+.movies-5r9 .the-story-follows-takemichi-hanagaki-who-learns-that-his-ex-girlfriend-hinata-tachibana-has-died-in-a-dispute-involving-the-tokyo-manji-gang-Efb {
+  width: 10.7rem;
+  height: 18rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 313.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime96.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 8 image*/
+.movies-5r9 .rectangle-91-J9f {
+  width: 16.9333rem;
+  height: 25.4rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 307.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime94.animate__animated{
+  opacity: 1;
+}
+/* section 3 div 8 title */
+.movies-5r9 .tokyo-revengers-dBw {
+  width: 8.7rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 93.1rem;
+  top: 307.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime95.animate__animated{
+  opacity: 1;
+}
+/* footer */
+
+.movies-5r9 .faq-xdP {
+  width: 4.3rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .terms-of-use-Ge5 {
+  width: 12.9rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 32.8rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .privacy-policy-z4H {
+  width: 13.6rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 50.2rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .netflix-uBF {
+  width: 17.2rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 68.3rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.movies-5r9 .contact-us-QNu {
+  width: 11.1rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 17.2rem;
+  top: 338.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}

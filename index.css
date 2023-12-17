@@ -1,0 +1,854 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+/* Main div */
+.home-Xbw {
+  width: 100%;
+  height: 254.7rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+/* background image */
+.home-Xbw .bgphoto-1-sZK {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-Xbw .background-1-aCq {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 84.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-Xbw .background-2-TXX {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 169.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+/* Navbar */
+.home-Xbw .navbar{
+  
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  z-index: 999;
+}
+.home-Xbw .navbar.navbar-shrink {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(8, 8, 8, 0.699);
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  backdrop-filter: 30px;
+  -webkit-backdrop-filter: 30px;
+  transition: background-color 5 ease-in-out;
+}
+.home-Xbw .navbar .home-yEy {
+  width: 6.6rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 4.4rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.home-Xbw .navbar.navbar-shrink .home-yEy {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.home-Xbw .navbar .manga-qY5 {
+  width: 8rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 28rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.home-Xbw .navbar.navbar-shrink .manga-qY5 {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.home-Xbw .navbar .movies-jNZ {
+  width: 8.1rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 41rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.home-Xbw .navbar.navbar-shrink .movies-jNZ {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.home-Xbw .navbar .login-page-RmB {
+  width: 12.8rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 54.1rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.home-Xbw .navbar.navbar-shrink .login-page-RmB {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.home-Xbw .navbar .subcription-L7T {
+  width: 14.3rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 71.9rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.home-Xbw .navbar.navbar-shrink .subcription-L7T {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.home-Xbw .navbar .anime-d6Z {
+  width: 7rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 16rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.home-Xbw .navbar.navbar-shrink .anime-d6Z {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+/* Netflix logo */
+.home-Xbw .navbar .netflixpng25-1-JTb {
+  width: 13.1rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 123.9rem;
+  top: 4.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  z-index: 1;
+}
+.home-Xbw .navbar.navbar-shrink .netflixpng25-1-JTb {
+  top: 2.6rem;
+  left: 124.5rem;
+  width: 12.1rem;
+  height: 3.2rem;
+  transition: top 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out,left 0.5s ease-in-out ;
+}
+
+/* title */
+.home-Xbw .anime-x-netflix-DKf {
+  width: 59.5rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 4.4rem;
+  top: 25.1rem;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1.2142857143;
+  color: #b8bbc0;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-Xbw .the-word-anime-pronounced-ah-knee-may-is-an-abbreviation-of-the-word-animation-in-japan-the-word-is-used-to-refer-to-all-animation-however-outside-of-japan-it-has-become-the-catch-all-term-for-animation-from-japan-for-decades-anime-was-produced-by-and-for-japan-a-local-product-with-a-distinct-look-and-feel-to-not-just-the-artwork-but-the-storytelling-the-themes-and-the-concepts-over-the-last-forty-years-it-has-become-an-international-phenomenon-attracting-millions-of-fans-and-being-translated-into-many-languages-a-whole-generation-of-viewers-in-the-west-has-grown-up-with-it-and-are-now-passing-it-on-to-their-own-children-because-all-things-anime-tend-to-be-lumped-together-its-tempting-to-think-of-anime-as-a-genre-it-isnt-at-least-no-more-than-animation-itself-is-a-genre-but-rather-a-description-of-how-the-material-is-produced-anime-shows-like-books-or-movies-fall-into-any-number-of-existing-genres-comedy-drama-sci-fi-action-adventure-horror-and-so-on-vE5 {
+  width: 55.5rem;
+  height: 26rem;
+  position: absolute;
+  left: 4.4rem;
+  top: 37.3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
+.home-Xbw .introductuon-JXT {
+  width: 14.6rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 4.4rem;
+  top: 30.7rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 5;
+  color: #717882;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* photos */
+.home-Xbw .ch1-1-QqP {
+  width: 61.7rem;
+  height: 18rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 69.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+/* title */
+.home-Xbw .new-trendy-jcm {
+  width: 17.4rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 106.6rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* image 1 */
+.home-Xbw .rectangle-39-RkV {
+  width: 63.6rem;
+  height: 38.2rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 112.2rem;
+  object-fit: cover;
+  vertical-align: top;
+  opacity: 0;
+}
+
+#anime1.animate__animated{
+  opacity: 1;
+}
+/* image 2 */
+.home-Xbw .rectangle-42-m3f {
+  width: 63.6rem;
+  height: 38.2rem;
+  position: absolute;
+  left: 72rem;
+  top: 150.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  opacity: 0;
+}
+
+#anime10.animate__animated{
+  opacity: 1;
+}
+/* image 1 description */
+.home-Xbw .frame-6-hCD {
+  width: 45.9rem;
+  height: 18.8645rem;
+  position: absolute;
+  left: 80.2rem;
+  top: 119.0994rem;
+}
+.home-Xbw .frame-6-hCD .frame-3-vDP {
+  margin-bottom: 0.3907rem;
+  display: flex;
+  align-items: center;
+}
+.home-Xbw .frame-6-hCD .frame-3-vDP .history-4Kb {
+  margin-right: 2.8518rem;
+  display: flex;
+  font-size: 1.7133rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .frame-6-hCD .frame-3-vDP .item--a33 {
+  margin-right: 0.7422rem;
+  display: flex;
+  font-size: 1.7133rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #d72828;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime2.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .frame-6-hCD .frame-3-vDP .month-ago-WBb {
+  display: flex;
+  font-size: 1.7133rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime3.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .frame-6-hCD .frame-4-pCH {
+  width: 100%;
+  height: 15.8738rem;
+  position: relative;
+}
+.home-Xbw .frame-6-hCD .frame-4-pCH .vinland-saga-kbj {
+  width: 17.8rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  font-size: 2.5699rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime4.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .frame-6-hCD .frame-4-pCH .vinland-saga-is-an-epic-historical-anime-that-follows-the-journey-of-a-young-viking-warrior-blending-action-adventure-and-complex-characters-in-a-riveting-norse-tale-ctq {
+  width: 45.9rem;
+  height: 12rem;
+  position: absolute;
+  left: 0;
+  top: 3.8738rem;
+  display: flex;
+  font-size: 1.9988rem;
+  font-weight: 400;
+  line-height: 1.4999999523;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime5.animate__animated{
+  opacity: 1;
+}
+/* image 2 description */
+.home-Xbw .frame-6-dow {
+  width: 45rem;
+  height: 18.8645rem;
+  position: absolute;
+  left: 16.6rem;
+  top: 157.2994rem;
+}
+.home-Xbw .frame-6-dow .frame-3-ZxV {
+  margin-bottom: 0.3901rem;
+  display: flex;
+  align-items: center;
+}
+.home-Xbw .frame-6-dow .frame-3-ZxV .fantasy-6hX {
+  margin: 0rem 1.952rem 0.001rem 0rem;
+  display: flex;
+  font-size: 1.7133rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0;
+}
+
+#anime6.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .frame-6-dow .frame-3-ZxV .item--beH {
+  margin: 0rem 0.748rem 0.001rem 0rem;
+  display: flex;
+  font-size: 1.7133rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #d12525;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0;
+}
+
+#anime7.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .frame-6-dow .frame-3-ZxV .month-ago-K4V {
+  margin-top: 0.0006rem;
+  display: flex;
+  font-size: 1.7133rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0;
+}
+
+#anime8.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .frame-6-dow .frame-4-Q5w {
+  width: 100%;
+  height: 15.8738rem;
+  position: relative;
+}
+.home-Xbw .frame-6-dow .frame-4-Q5w .bleach-XwF {
+  width: 9.1rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  font-size: 2.5699rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+
+#anime9.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .frame-6-dow .frame-4-Q5w .experience-the-captivating-world-of-bleach-manga-where-a-young-soul-reaper-battles-supernatural-threats-to-protect-the-living-and-the-afterlife--qh3 {
+  width: 45rem;
+  height: 12rem;
+  position: absolute;
+  left: 0;
+  top: 3.8738rem;
+  display: flex;
+  font-size: 1.9988rem;
+  font-weight: 400;
+  line-height: 1.4999999523;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  opacity: 0;
+}
+
+#anime11.animate__animated{
+  opacity: 1;
+}
+/* last conateiner */
+.home-Xbw .line-UED {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 109.9rem;
+}
+.home-Xbw .line-UED .vector-5-CR7 {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.home-Xbw .line-UED .vector-6-jR3 {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+.home-Xbw .short-reads-4y7 {
+  width: 127.4rem;
+  height: 29.9rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 201rem;
+  background: linear-gradient(180deg, #afd8ff -0%, rgba(186, 175, 255, 0) 100%);
+  border-radius: 1rem;
+  opacity: 0;
+}
+#anime22.animate__animated{
+  opacity: 1;
+}
+
+.home-Xbw .short-reads-4y7 .group-1174-17f {
+  width: 111.7rem;
+  height: 22.7rem;
+  position: absolute;
+  left: 7rem;
+  top: 3.9rem;
+  display: flex;
+  align-items: center;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-ngfs-VoX {
+  width: 33.9rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-ngfs-VoX .graphic-design-RhB {
+  margin-bottom: 3.4rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.3333333333;
+  color: #0f1935;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime12.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-ngfs-VoX .group-20-Z2h {
+  width: 100%;
+  height: 16.1rem;
+  display: flex;
+  align-items: flex-start;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-ngfs-VoX .group-20-Z2h .group-23-WTj {
+  margin: 0rem 2rem 3.9rem 0rem;
+  width: 14.4rem;
+  background-color: #f5f6f8;
+  flex-shrink: 0;
+}
+/* image 1 in conateiner */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-ngfs-VoX .group-20-Z2h .group-23-WTj .image-5-Pfw {
+  width: 14.4rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  opacity: 0;
+}
+#anime13.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-ngfs-VoX .group-20-Z2h .group-27-X1T {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+/* image 1 title */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-ngfs-VoX .group-20-Z2h .group-27-X1T .graphic-design-rpR {
+  margin-bottom: 3.6rem;
+  font-size: 1.7348rem;
+  font-weight: 500;
+  line-height: 1.416666575;
+  color: #020202;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime14.animate__animated{
+  opacity: 1;
+}
+/* image 1 description */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-ngfs-VoX .group-20-Z2h .group-27-X1T .death-note-dead-manga-a-chilling-continuation-mysteries-unravel-justice-confronts-darkness-gripping-sequel-xcZ {
+  max-width: 17.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.03rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime15.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih {
+  box-sizing: border-box;
+  padding: 6.6rem 0rem 0rem 5.8rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-21-ACq {
+  margin-right: 7rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-21-ACq .group-23-uw7 {
+  margin: 0rem 2rem 3.9rem 0rem;
+  width: 14.4rem;
+  background-color: #f5f6f8;
+  flex-shrink: 0;
+}
+/* image 2 conatainer */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-21-ACq .group-23-uw7 .image-5-FVB {
+  width: 14.4rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  opacity: 0;
+}
+#anime16.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-21-ACq .group-28-B7w {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+/* image 2 title */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-21-ACq .group-28-B7w .graphic-design-Wvu {
+  margin-bottom: 3.6rem;
+  font-size: 1.7348rem;
+  font-weight: 500;
+  line-height: 1.416666575;
+  color: #020202;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime17.animate__animated{
+  opacity: 1;
+}
+/* image 2 description */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-21-ACq .group-28-B7w .action-packed-demon-slayer-manga-follows-tanjiros-quest-to-avenge-family-and-defeat-formidable-demons-eXK {
+  margin-left: 0.5rem;
+  max-width: 15.8rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.03rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime18.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-22-FX7 {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-22-FX7 .group-23-1WH {
+  margin: 0rem 2rem 3.9rem 0rem;
+  width: 14.4rem;
+  background-color: #f5f6f8;
+  flex-shrink: 0;
+}
+/* image 3 conatainer */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-22-FX7 .group-23-1WH .image-5-xAd {
+  width: 14.4rem;
+  height: 10rem;
+  object-fit: cover;
+  vertical-align: top;
+  opacity: 0;
+}
+#anime19.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-22-FX7 .group-29-u5s {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+/* image 3 title */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-22-FX7 .group-29-u5s .graphic-design-s2h {
+  margin-bottom: 1.1rem;
+  max-width: 11.8rem;
+  font-size: 1.7348rem;
+  font-weight: 500;
+  line-height: 1.416666575;
+  color: #020202;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime20.animate__animated{
+  opacity: 1;
+}
+/* image 3 description */
+.home-Xbw .short-reads-4y7 .group-1174-17f .auto-group-qs5t-dih .group-22-FX7 .group-29-u5s .jojos-bizarre-adventure-dead-manga-thrilling-supernatural-odyssey-unfolding-in-a-realm-beyond-mortality-z7K {
+  max-width: 15.9rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  letter-spacing: 0.03rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+  opacity: 0;
+}
+#anime21.animate__animated{
+  opacity: 1;
+}
+.home-Xbw .short-reads-4y7 .line-Tmb {
+  width: 120.3rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 7.1rem;
+  top: 8.4rem;
+}
+.home-Xbw .short-reads-4y7 .line-Tmb .vector-5-o4m {
+  width: 120.3rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.home-Xbw .short-reads-4y7 .line-Tmb .vector-6-wAy {
+  width: 2.0178rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+/* footer */
+.home-Xbw .faq-AJd {
+  width: 4.3rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 243.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-Xbw .terms-of-use-sTw {
+  width: 12.9rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 32.8rem;
+  top: 243.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-Xbw .privacy-policy-PSH {
+  width: 13.6rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 50.2rem;
+  top: 243.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-Xbw .netflix-hhs {
+  width: 17.2rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 68.3rem;
+  top: 243.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-Xbw .contact-us-pXb {
+  width: 11.1rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 17.2rem;
+  top: 243.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+

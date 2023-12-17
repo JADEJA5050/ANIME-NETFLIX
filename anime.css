@@ -1,0 +1,2054 @@
+html {
+	font-size:62.5%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+
+/* main div */
+.anime-P9K {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+/* second div */
+.anime-P9K .auto-group-kadp-utM {
+  width: 100%;
+  height: 169.9rem;
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Background image  */
+.anime-P9K .auto-group-kadp-utM .bgphoto-1-nSM {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+/* black background */
+.anime-P9K .auto-group-kadp-utM .background-1-i57 {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 84.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+/* navbar */
+.anime-P9K .auto-group-kadp-utM .navbar{
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  backdrop-filter: 15px;
+  -webkit-backdrop-filter: 15px;
+  z-index: 999;
+}
+.anime-P9K .auto-group-kadp-utM .navbar.navbar-shrink {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(8, 8, 8, 0.699);
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  transition: background-color 5 ease-in-out;
+}
+.anime-P9K .auto-group-kadp-utM .navbar .home-XEq {
+  width: 6.6rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 4.4rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-kadp-utM .navbar.navbar-shrink .home-XEq {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.anime-P9K .auto-group-kadp-utM .navbar .manga-Ef3 {
+  width: 8rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 28rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-kadp-utM .navbar.navbar-shrink .manga-Ef3 {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.anime-P9K .auto-group-kadp-utM .navbar .movies-wJZ {
+  width: 8.1rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 41rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-kadp-utM .navbar.navbar-shrink .movies-wJZ {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.anime-P9K .auto-group-kadp-utM .navbar .login-page-Dms {
+  width: 12.8rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 54.1rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-kadp-utM .navbar.navbar-shrink .login-page-Dms {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.anime-P9K .auto-group-kadp-utM .navbar .subcription-6qf {
+  width: 14.3rem;
+  height: 8.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 71.9rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-kadp-utM .navbar.navbar-shrink .subcription-6qf {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+.anime-P9K .auto-group-kadp-utM .navbar .anime-1xd {
+  width: 7rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 16rem;
+  top: 2.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-kadp-utM .navbar.navbar-shrink .anime-1xd {
+  top: 0rem;
+  transition: top 0.5s ease-in-out;
+}
+/* netflix logo */
+
+.anime-P9K .auto-group-kadp-utM .navbar .netflixpng25-1-oJq {
+  width: 13.1rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 123.9rem;
+  top: 4.6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.anime-P9K .auto-group-kadp-utM .navbar.navbar-shrink .netflixpng25-1-oJq {
+  top: 2.6rem;
+  left: 124.5rem;
+  width: 12.1rem;
+  height: 3.2rem;
+  transition: top 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out,left 0.5s ease-in-out ;
+}
+/* top trending */
+
+.anime-P9K .auto-group-kadp-utM .top-trending-k3b {
+  width: 52.4rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.1rem;
+  top: 26.1rem;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1.2142857143;
+  color: #b8bbc0;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+/* tokyo revengers */
+.anime-P9K .auto-group-kadp-utM .tokyo-revengers-44H {
+  width: 24.3rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.9rem;
+  top: 34rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.5416666667;
+  color: #717882;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+/* text */
+.anime-P9K .auto-group-kadp-utM .summaries-hanagaki-takemichi-lives-an-unsatisfying-life-right-up-until-his-death-waking-up-12-years-in-the-past-he-reckons-with-the-eventual-fate-of-his-friends-and-tries-to-prevent-an-unfortunate-future-takemichi-hanagaki-is-a-freelancer-thats-reached-the-absolute-pits-of-despair-in-his-life-Rp5 {
+  width: 55.4rem;
+  height: 8rem;
+  position: absolute;
+  left: 9.2rem;
+  top: 43.4rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
+
+/* photos */
+
+.anime-P9K .auto-group-kadp-utM .ch1-1-vsK {
+  width: 61.7rem;
+  height: 18rem;
+  position: absolute;
+  left: 4.5rem;
+  top: 69.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+/* title */
+.anime-P9K .auto-group-kadp-utM .popular-anime-list-QyX {
+  width: 24.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 91.8rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-kadp-utM .line-TS1 {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 95.1rem;
+}
+.anime-P9K .auto-group-kadp-utM .line-TS1 .vector-5-BN1 {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.anime-P9K .auto-group-kadp-utM .line-TS1 .vector-6-7WZ {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+
+/* div 1 */
+.anime-P9K .auto-group-kadp-utM .rectangle-47-vJu {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 104rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime1.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .naruto-is-a-ninja-in-training-whose-wild-antics-amuse-his-teammates-SY9 {
+  width: 26.9rem;
+  height: 4rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 127rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime2.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .naruto-Nc9 {
+  width: 6.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 123.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime3.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .rectangle-43-8A5 {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 105.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime4.animate__animated{
+  opacity: 1;
+}
+
+/* div 2 */
+
+.anime-P9K .auto-group-kadp-utM .rectangle-50-qqB {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.8rem;
+  top: 104rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+
+#anime5.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .naruto-shippuden-jff {
+  width: 16.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 40.4rem;
+  top: 123.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+
+#anime6.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .an-anime-television-series-mainly-adapted-from-part-ii-of-masashi-kishimotos-original-naruto-manga-series-with-exactly-500-episodes-GxR {
+  width: 27.2rem;
+  height: 6rem;
+  position: absolute;
+  left: 40.4rem;
+  top: 126.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+
+#anime7.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .rectangle-51-XfP {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 40.4rem;
+  top: 105.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+
+#anime8.animate__animated{
+  opacity: 1;
+}
+
+/* div 3 */
+.anime-P9K .auto-group-kadp-utM .rectangle-52-4QR {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 74rem;
+  top: 104rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime9.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .rectangle-53-Nvu {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 75.6rem;
+  top: 105.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime10.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .jujustu-kaisen-bhs {
+  width: 12.9rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 75.7rem;
+  top: 123.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime11.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .the-story-follows-high-school-student-yuji-itadori-as-he-joins-a-secret-organization-of-jujutsu-sorcerers-to-eliminate-a-powerful-w2y {
+  width: 28.4rem;
+  height: 6rem;
+  position: absolute;
+  left: 75.6rem;
+  top: 126.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime12.animate__animated{
+  opacity: 1;
+}
+
+/* div 4 */
+
+.anime-P9K .auto-group-kadp-utM .rectangle-54-JpZ {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 109.2rem;
+  top: 104rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime13.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .rectangle-55-EiD {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 110.8rem;
+  top: 105.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime14.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .edens-zero-Lqo {
+  width: 9.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 110.8rem;
+  top: 123.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime15.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .shiki-granbell-a-human-boy-who-manipulates-gravity-with-a-superhuman-power-called-ether-gear-Sdw {
+  width: 26.9rem;
+  height: 6rem;
+  position: absolute;
+  left: 110.8rem;
+  top: 126.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime16.animate__animated{
+  opacity: 1;
+}
+
+/* div 5 */
+.anime-P9K .auto-group-kadp-utM .rectangle-56-t25 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.4rem;
+  top: 137.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime17.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .rectangle-57-UW5 {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 5rem;
+  top: 139.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime18.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .bleach-2vu {
+  width: 6rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 5rem;
+  top: 156.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime19.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .ichigo-kurosaki-is-a-teenager-from-karakura-town-who-can-see-ghosts-a-talent-allowing-him-to-meet-a-supernatural-human-rukia-kuchiki-ouj {
+  width: 29rem;
+  height: 6rem;
+  position: absolute;
+  left: 5rem;
+  top: 160.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+
+#anime20.animate__animated{
+  opacity: 1;
+}
+
+/* div 6 */
+
+
+.anime-P9K .auto-group-kadp-utM .rectangle-58-oYM {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.6rem;
+  top: 137.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime21.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .rectangle-59-xzu {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 40.2rem;
+  top: 139.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime22.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .a-whisker-away-w8m {
+  width: 13.7rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 40.2rem;
+  top: 156.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime23.animate__animated{
+  opacity: 1;
+}
+
+.anime-P9K .auto-group-kadp-utM .an-anime-fantasy-in-which-a-free-spirited-girl-muge-finds-a-way-to-transform-into-a-cat-in-order-to-get-to-know-her-crush-hinode-better-YPT {
+  width: 28.7rem;
+  height: 6rem;
+  position: absolute;
+  left: 40.2rem;
+  top: 160.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime24.animate__animated{
+  opacity: 1;
+}
+
+/* div 7 */
+
+.anime-P9K .auto-group-kadp-utM .rectangle-60-6bK {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 73.8rem;
+  top: 137.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime25.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .rectangle-61-1CV {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 139.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime26.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .b-the-beginnig-tS5 {
+  width: 13.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 75.7rem;
+  top: 156.6rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime27.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .in-a-world-powered-by-advanced-technology-crime-and-violence-sweep-through-the-archipelagic-nation-of-cremona-LKK {
+  width: 26.2rem;
+  height: 6rem;
+  position: absolute;
+  left: 75.4rem;
+  top: 160.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime28.animate__animated{
+  opacity: 1;
+}
+
+/* div 8 */
+.anime-P9K .auto-group-kadp-utM .rectangle-62-6Uq {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 109rem;
+  top: 137.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime29.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .rectangle-63-Rn1 {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 110.6rem;
+  top: 139.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime30.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .basketball-zem {
+  width: 9.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 110.6rem;
+  top: 156.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime31.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-kadp-utM .a-show-about-kuroko-tetsuya-a-prodigy-basketball-player-who-joins-the-seirin-high-school-basketball-team-6Su {
+  width: 24.6rem;
+  height: 6rem;
+  position: absolute;
+  left: 110.6rem;
+  top: 160.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime32.animate__animated{
+  opacity: 1;
+}
+
+
+/* New div / section 2 */
+
+.anime-P9K .auto-group-edvk-N4y {
+  width: 100%;
+  height: 178rem;
+  position: relative;
+  flex-shrink: 0;
+}
+/* background image */
+.anime-P9K .auto-group-edvk-N4y .background-2-RJ9 {
+  width: 100%;
+  height: 85rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+/* title */
+.anime-P9K .auto-group-edvk-N4y .new-releases-list-m77 {
+  width: 22.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 5.9rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  z-index: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .line-bM3 {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 9.2rem;
+  z-index: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .line-bM3 .vector-5-XkV {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.anime-P9K .auto-group-edvk-N4y .line-bM3 .vector-6-4VX {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+
+/* div 1 */
+.anime-P9K .auto-group-edvk-N4y .rectangle-79-pHf {
+width: 31.1rem;
+height: 28.9rem;
+position: absolute;
+left: 3.9rem;
+top: 18.6rem;
+background-color: rgba(175, 217, 255, 0.2199999988);
+border-radius: 1.5rem;
+opacity: 0;
+}
+#anime33.animate__animated{
+opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-80-3pd {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 5.5rem;
+  top: 20.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+  }
+  #anime34.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .blue-lock-YUZ {
+width: 8.6rem;
+height: 2.8rem;
+position: absolute;
+left: 5.5rem;
+top: 37.8rem;
+font-size: 2rem;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: 0.05rem;
+color: rgba(153, 175, 255, 0.7900000215);
+font-family: Century, 'Source Sans Pro';
+white-space: nowrap;
+opacity: 0;
+}
+#anime35.animate__animated{
+opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .a-mad-young-coach-gathers-soccer-players-from-across-the-country-to-compete-in-a-series-of-challenges-in-a-high-tech-he-calls-blue-lock-qiZ {
+width: 28.1rem;
+height: 6rem;
+position: absolute;
+left: 5.5rem;
+top: 41.2rem;
+font-size: 1.2rem;
+font-weight: 600;
+line-height: 1.6666666667;
+color: #c6c6c6;
+font-family: Inter, 'Source Sans Pro';
+opacity: 0;
+}
+#anime36.animate__animated{
+opacity: 1;
+}
+
+/* div 2 */
+
+.anime-P9K .auto-group-edvk-N4y .rectangle-65-C5w {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 39rem;
+  top: 18.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime37.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-66-tuo {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 40.6rem;
+  top: 20.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime38.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .princess-mononoke-um3 {
+  width: 17.1rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 40.6rem;
+  top: 37.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime39.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .story-of-a-young-mans-quest-to-reconcile-the-powerful-forces-of-human-civilization-and-industry-with-the-need-to-live-in-the-natural-world-Ljs {
+  width: 29.1rem;
+  height: 6rem;
+  position: absolute;
+  left: 40.6rem;
+  top: 41.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime40.animate__animated{
+  opacity: 1;
+}
+
+
+/* div 3 */
+
+.anime-P9K .auto-group-edvk-N4y .rectangle-67-NM7 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 74.2rem;
+  top: 18.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+
+#anime41.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-68-62D {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 75.8rem;
+  top: 20.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+
+#anime42.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .howls-moving-castle-Ck9 {
+  width: 18.6rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 75.9rem;
+  top: 37.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+
+#anime43.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .howls-moving-castle-is-a-fantasy-novel-about-the-infamous-wizard-howl-and-a-cursed-hatmaker-named-sophie-HcV {
+  width: 29rem;
+  height: 6rem;
+  position: absolute;
+  left: 75.8rem;
+  top: 41.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+
+#anime44.animate__animated{
+  opacity: 1;
+}
+
+/* div 4 */
+.anime-P9K .auto-group-edvk-N4y .rectangle-69-DsX {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 109.4rem;
+  top: 18.6rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime45.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-70-9mB {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 111rem;
+  top: 20.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime46.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .tokyo-revengers-zpR {
+  width: 14.9rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 111rem;
+  top: 37.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime47.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .hanagaki-takemichi-lives-an-unsatisfying-life-right-up-until-his-death-waking-up-12-years-in-the-past-he-reckons-with-tries-to-prevent-ufortunate-future-H3w {
+  width: 29rem;
+  height: 6rem;
+  position: absolute;
+  left: 111rem;
+  top: 41.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime48.animate__animated{
+  opacity: 1;
+}
+
+/* div 5 */
+.anime-P9K .auto-group-edvk-N4y .rectangle-71-mXf {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 52.2rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+
+#anime49.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-72-tVo {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 53.9rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+
+#anime50.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .beyblade-burst-rb3 {
+  width: 13.4rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 71.4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+
+#anime51.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .this-is-the-story-of-a-group-of-passionate-bladers-who-follow-their-dreams-on-an-unforgettable-journey-to-the-top-J1o {
+  width: 28.4rem;
+  height: 6rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 75.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+
+#anime52.animate__animated{
+  opacity: 1;
+}
+
+/* div 6 */
+
+.anime-P9K .auto-group-edvk-N4y .rectangle-73-DY5 {
+width: 31.1rem;
+height: 28.9rem;
+position: absolute;
+left: 38.8rem;
+top: 52.2rem;
+background-color: rgba(175, 217, 255, 0.2199999988);
+border-radius: 1.5rem;
+opacity: 0;
+}
+#anime53.animate__animated{
+opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-74-LY9 {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 40.4rem;
+  top: 53.9rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime54.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .violet-evergarden-9gd {
+width: 15.5rem;
+height: 2.8rem;
+position: absolute;
+left: 40.4rem;
+top: 71.4rem;
+font-size: 2rem;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: 0.05rem;
+color: rgba(153, 175, 255, 0.7900000215);
+font-family: Century, 'Source Sans Pro';
+white-space: nowrap;
+opacity: 0;
+}
+#anime55.animate__animated{
+opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .violet-is-a-highly-capable-and-skilled-fighter-as-a-former-soldier-who-was-trained-from-a-young-age-violet-excelled-in-combat-kwK {
+width: 28.7rem;
+height: 6rem;
+position: absolute;
+left: 40.4rem;
+top: 74.8rem;
+font-size: 1.2rem;
+font-weight: 600;
+line-height: 1.6666666667;
+color: #c6c6c6;
+font-family: Inter, 'Source Sans Pro';
+opacity: 0;
+}
+#anime56.animate__animated{
+opacity: 1;
+}
+
+/* div 7 */
+.anime-P9K .auto-group-edvk-N4y .rectangle-75-Fv1 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 74rem;
+  top: 52.2rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime57.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-76-PWR {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 75.6rem;
+  top: 53.9rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime58.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .castlevania-VjF {
+  width: 10.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 75.9rem;
+  top: 71.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime59.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .castlevania-mainly-takes-place-in-the-castle-of-count-dracula-who-resurrects-every-hundred-years-to-take-over-the-world-dER {
+  width: 27.1rem;
+  height: 6rem;
+  position: absolute;
+  left: 75.6rem;
+  top: 74.9rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime60.animate__animated{
+  opacity: 1;
+}
+
+/* div 8 */
+.anime-P9K .auto-group-edvk-N4y .rectangle-77-Xcd {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 109.2rem;
+  top: 52.2rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime61.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-78-ehF {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 110.8rem;
+  top: 53.9rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime62.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .my-neighbor-totoro-EV7 {
+  width: 17.4rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 110.8rem;
+  top: 71.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime63.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .set-in-1958-my-neighbor-totoro-is-about-two-young-sisters-satsuki-and-mei-as-they-travel-with-their-father-in-rural-japan-ub7 {
+  width: 29.3rem;
+  height: 6rem;
+  position: absolute;
+  left: 110.8rem;
+  top: 74.9rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime64.animate__animated{
+  opacity: 1;
+}
+
+/* Dark Fantacy anime */
+/* background image */
+
+.anime-P9K .auto-group-edvk-N4y .background-3-Nt9 {
+  width: 100%;
+  height: 70rem;
+  position: absolute;
+  left: 0;
+  top: 84.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.anime-P9K .auto-group-edvk-N4y .background-4-WzM {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  left: 0;
+  top: 154.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+/* title */
+.anime-P9K .auto-group-edvk-N4y .dark-fantasy-anime-Zjf {
+  width: 25.6rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 91.2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05rem;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-edvk-N4y .line-YrV {
+  width: 125.2rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 94.5rem;
+}
+.anime-P9K .auto-group-edvk-N4y .line-YrV .vector-5-TTf {
+  width: 125.2rem;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.anime-P9K .auto-group-edvk-N4y .line-YrV .vector-6-b45 {
+  width: 2.1rem;
+  height: 0.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 0.1rem;
+}
+
+/* div 1 */
+
+.anime-P9K .auto-group-edvk-N4y .rectangle-83-8tZ {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.9rem;
+  top: 101.9rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime65.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-84-dTw {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 5.5rem;
+  top: 103.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime66.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .spirited-away-s5T {
+  width: 12.1rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 5.5rem;
+  top: 121.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime67.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .sullen-10-year-old-girl-wanders-into-a-world-ruled-by-gods-witches-and-spirits-a-world-where-humans-are-changed-into-beasts-Zys {
+  width: 28.7rem;
+  height: 6rem;
+  position: absolute;
+  left: 5.5rem;
+  top: 124.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime68.animate__animated{
+  opacity: 1;
+}
+
+/* div 2 */
+
+.anime-P9K .auto-group-edvk-N4y .rectangle-81-L1f {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 39rem;
+  top: 101.9rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime69.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-82-DWh {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 40.6rem;
+  top: 103.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime70.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .beyblade-rEu {
+  width: 8.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 40.6rem;
+  top: 121.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime71.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .line-of-spinning-top-toys-originally-developed-by-takara-first-released-in-japan-in-july-1999-along-with-its-debut-series-6oT {
+  width: 28.5rem;
+  height: 6rem;
+  position: absolute;
+  left: 40.6rem;
+  top: 124.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime72.animate__animated{
+  opacity: 1;
+}
+
+
+
+/* div 3 */
+.anime-P9K .auto-group-edvk-N4y .rectangle-85-7P7 {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 74.2rem;
+  top: 101.9rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime73.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-86-Reh {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 75.8rem;
+  top: 103.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime74.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .bungo-stray-dogs-YtR {
+  width: 15.5rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 75.9rem;
+  top: 121.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime75.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .the-show-mainly-focuses-on-the-weretiger-atsushi-nakajima-who-joins-others-gifted-with-powers-to-accomplish-different-tasks-signed-by-the-agency-GSM {
+  width: 29.2rem;
+  height: 6rem;
+  position: absolute;
+  left: 75.8rem;
+  top: 124.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime76.animate__animated{
+  opacity: 1;
+}
+
+
+/* div 4 */
+
+.anime-P9K .auto-group-edvk-N4y .rectangle-87-kws {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 109.4rem;
+  top: 101.9rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime77.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-88-tYH {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 111rem;
+  top: 103.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime78.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .demon-slayer-KRK {
+  width: 12.8rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 111rem;
+  top: 121.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime79.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .demon-slayer-kimetsu-no-yaiba-is-a-japanese-fantasy-manga-series-and-comic-book-by-koyoharu-gotouge-8yf {
+  width: 27.2rem;
+  height: 6rem;
+  position: absolute;
+  left: 111rem;
+  top: 124.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime80.animate__animated{
+  opacity: 1;
+}
+
+
+/* div 5 */
+
+.anime-P9K .auto-group-edvk-N4y .rectangle-89-RYD {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 3.6rem;
+  top: 135.5rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime81.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-90-dPP {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 137.2rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime82.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .shaman-king-P9b {
+  width: 11.7rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 154.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime83.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .indian-actor-producer-television-presenter-and-philanthropist-khan-works-in-hindi-language-films-and-television-shows-Mgm {
+  width: 29.3rem;
+  height: 6rem;
+  position: absolute;
+  left: 5.2rem;
+  top: 158.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime84.animate__animated{
+  opacity: 1;
+}
+
+/* div 6 */
+
+.anime-P9K .auto-group-edvk-N4y .rectangle-91-xgZ {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 38.8rem;
+  top: 135.5rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime85.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-92-rSV {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 40.4rem;
+  top: 137.2rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime86.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .dota-dragons-blood-6gH {
+  width: 18.9rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 40.4rem;
+  top: 154.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+#anime87.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .a-conflicted-yet-courageous-dragon-knight-must-use-the-power-of-the-dragon-within-to-stop-deadly-demon-in-this-epic-fantasy-on-the-online-game-VCd {
+  width: 28.9rem;
+  height: 6rem;
+  position: absolute;
+  left: 40.4rem;
+  top: 158.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime88.animate__animated{
+  opacity: 1;
+}
+
+/* div 7 */
+.anime-P9K .auto-group-edvk-N4y .rectangle-93-8eu {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 74rem;
+  top: 135.5rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+
+#anime89.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-94-SvV {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 75.6rem;
+  top: 137.2rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+
+#anime90.animate__animated{
+  opacity: 1;
+}
+
+.anime-P9K .auto-group-edvk-N4y .fate-apocrypha-2Ho {
+  width: 15rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 75.9rem;
+  top: 154.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+
+#anime91.animate__animated{
+  opacity: 1;
+}
+
+.anime-P9K .auto-group-edvk-N4y .fate-apocrypha-takes-place-in-an-alternate-timeline-from-fate-stay-night-bcM {
+  width: 25rem;
+  height: 4rem;
+  position: absolute;
+  left: 75.6rem;
+  top: 158.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+
+#anime92.animate__animated{
+  opacity: 1;
+}
+
+/* div 8 */
+.anime-P9K .auto-group-edvk-N4y .rectangle-95-mxm {
+  width: 31.1rem;
+  height: 28.9rem;
+  position: absolute;
+  left: 109.2rem;
+  top: 135.5rem;
+  background-color: rgba(175, 217, 255, 0.2199999988);
+  border-radius: 1.5rem;
+  opacity: 0;
+}
+#anime93.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .rectangle-96-up5 {
+  width: 28rem;
+  height: 17rem;
+  position: absolute;
+  left: 111rem;
+  top: 137.2rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.8rem;
+  opacity: 0;
+}
+#anime94.animate__animated{
+  opacity: 1;
+}
+.anime-P9K .auto-group-edvk-N4y .drifting-home-9Y5 {
+  width: 12.3rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 110.8rem;
+  top: 154.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
+  color: rgba(153, 175, 255, 0.7900000215);
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  opacity: 0;
+}
+
+#anime95.animate__animated{
+  opacity: 1;
+}
+
+.anime-P9K .auto-group-edvk-N4y .one-fateful-summer-a-group-of-elementary-school-kids-set-adrift-on-an-abandoned-apartment-buildingmust-look-to-find-a-way-back-home-SZ7 {
+  width: 29.2rem;
+  height: 6rem;
+  position: absolute;
+  left: 110.8rem;
+  top: 158.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #c6c6c6;
+  font-family: Inter, 'Source Sans Pro';
+  opacity: 0;
+}
+#anime96.animate__animated{
+  opacity: 1;
+}
+
+/* footer */
+
+.anime-P9K .auto-group-edvk-N4y .faq-q13 {
+  width: 4.3rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 8.4rem;
+  top: 168.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-edvk-N4y .terms-of-use-X8m {
+  width: 12.9rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 32.8rem;
+  top: 168.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-edvk-N4y .privacy-policy-E3B {
+  width: 13.6rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 50.2rem;
+  top: 168.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-edvk-N4y .netflix-jVj {
+  width: 17.2rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 68.3rem;
+  top: 168.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.anime-P9K .auto-group-edvk-N4y .contact-us-FDB {
+  width: 11.1rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 17.2rem;
+  top: 168.8rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}

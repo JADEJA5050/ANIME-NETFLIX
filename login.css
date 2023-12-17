@@ -1,0 +1,374 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 153rem;
+}
+a{
+  text-decoration: none;
+}
+.login-1o7 {
+  box-sizing: border-box;
+  padding: 2.4rem 66.8rem 2.4rem 4.4rem;
+  width: 1536px;
+  height: 786px;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('itachi-1-bg.png');
+  background-color: #ffffff;
+}
+/* Navbar */
+.login-1o7 .home-udb {
+  margin-right: 5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-1o7 .anime-pVf {
+  margin-right: 5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-1o7 .manga-Liu {
+  margin-right: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-1o7 .auto-group-9yyd-5gV {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.login-1o7 .auto-group-9yyd-5gV .auto-group-atyh-q9s {
+  margin: 0rem 0rem 3.8rem 4rem;
+  display: flex;
+  column-gap: 5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.login-1o7 .auto-group-9yyd-5gV .auto-group-atyh-q9s .movies-Ypy {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-1o7 .auto-group-9yyd-5gV .auto-group-atyh-q9s .login-page-J3T {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.login-1o7 .auto-group-9yyd-5gV .auto-group-atyh-q9s .subcription-DgD {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+/* Main container */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm {
+  width: 41.1rem;
+  height: 45.4rem;
+  position: relative;
+  background-color: #cccccc;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-wl3k-gJu {
+  width: 37.7rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 1.8rem;
+  top: 8.2rem;
+  display: flex;
+  align-items: center;
+}
+/* first name */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-wl3k-gJu .auto-group-oeup-bwf {
+  margin-right: 1.1rem;
+  box-sizing: border-box;
+  padding: 0.8rem 0.4rem 0.4rem 0.4rem;
+  width: 18.3rem;
+  height: 100%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #4f4a4a;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+/* last name */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-wl3k-gJu .auto-group-wcbk-G2D {
+  box-sizing: border-box;
+  padding: 0.8rem 0.4rem 0.4rem 0.4rem;
+  width: 18.3rem;
+  height: 100%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #4f4a4a;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+/* sign up */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .sign-up-XTw {
+  width: 10.4rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 14.9rem;
+  top: 2rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #1e1e1e;
+  font-family: Trade Winds, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* email */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-pxtv-phw {
+  box-sizing: border-box;
+  padding: 0.7rem 0.4rem 0.5rem 0.4rem;
+  width: 37.7rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 1.8rem;
+  top: 12.55rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #4f4a4a;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+/* password */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-fsht-UXb {
+  box-sizing: border-box;
+  padding: 0.7rem 0.4rem 0.5rem 0.4rem;
+  width: 37.7rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 1.8rem;
+  top: 17rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #4f4a4a;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+/* repassword */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-6daq-iwj {
+  box-sizing: border-box;
+  padding: 0.8rem 0.4rem 0.4rem 0.4rem;
+  width: 37.7rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 1.8rem;
+  top: 21.33rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #4f4a4a;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+/* check box */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-kmsx-P2H {
+  width: 25.3rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 7.4rem;
+  top: 26.2rem;
+  display: flex;
+  align-items: center;
+}
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-kmsx-P2H .rectangle-7-umK {
+  margin: 0rem 1.05rem 0.05rem 0rem;
+  width: 1.15rem;
+  height: 1.15rem;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+}
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-kmsx-P2H .i-accept-the-term-of-use-privacy-policy-ptH {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century Schoolbook, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+/* sign up button */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-ru8m-M7X {
+  width: 34.1rem;
+  height: 3rem;
+  position: absolute;
+  left: 3.5rem;
+  top: 30rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #c6d1d8;
+  font-family: Constantia, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #131f2f;
+  border-radius: 0.5rem;
+}
+
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-arjv-Rt5 {
+  width: 23.4rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 8.6rem;
+  top: 35.6rem;
+  display: flex;
+  align-items: center;
+}
+/* already have account */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-arjv-Rt5 .already-have-an-account-MWq {
+  margin: 0rem 2.1rem 0.1rem 0rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century Schoolbook, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+/* login here */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-arjv-Rt5 .login-here-5Bw {
+  margin-top: 0.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0f2e99;
+  font-family: Century Schoolbook, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-mzfb-cBs {
+  width: 14.7rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 13.4rem;
+  top: 39rem;
+  display: flex;
+  align-items: center;
+}
+/* copyright */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-mzfb-cBs .copyright--M9T {
+  margin-right: 1.1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century Schoolbook, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+/* netflix.com */
+.login-1o7 .auto-group-9yyd-5gV .auto-group-dwms-9pm .auto-group-mzfb-cBs .netflixcom-gBj {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #0f2e99;
+  font-family: Century Schoolbook, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
+#fn1_error{
+  position: absolute;
+  top: 3rem;
+  left: 0.5rem;
+}
+
+#ln1_error{
+  position: absolute;
+  top: 3rem;
+  left: 20rem;
+}
+
+#email_error{
+  position: absolute;
+  top: 15.5rem;
+  left: 2.3rem;
+}
+
+#pwd_error{
+  position: absolute;
+  top: 19.95rem;
+  left: 2.3rem;
+}
+
+#repwd_error{
+ position: absolute; 
+ top: 24.4rem;
+ left: 2.3rem;
+}
+
+#hobbies_error{
+ position: absolute; 
+ top: 2rem;
+}

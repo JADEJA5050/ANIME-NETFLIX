@@ -1,0 +1,628 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 153rem;
+}
+/* main div */
+.subcription-Nxy {
+  box-sizing: border-box;
+  padding: 3rem 8rem 9rem 6.7rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('subcription-bg.png');
+}
+.subcription-Nxy .auto-group-qkem-WJV {
+  margin-bottom: 3.8rem;
+  display: flex;
+  column-gap: 5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+/* Navbar */
+
+.subcription-Nxy .auto-group-qkem-WJV .home-qbf {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subcription-Nxy .auto-group-qkem-WJV .anime-aJM {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subcription-Nxy .auto-group-qkem-WJV .manga-Kmj {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subcription-Nxy .auto-group-qkem-WJV .movies-gMP {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subcription-Nxy .auto-group-qkem-WJV .login-page-2g9 {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subcription-Nxy .auto-group-qkem-WJV .subcription-ahf {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.25;
+  color: #ad0000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Conatainer  */
+.subcription-Nxy .auto-group-fep9-7xV {
+  width: 100%;
+  height: 96.2rem;
+  position: relative;
+  border: solid 0.1rem #888888;
+  box-sizing: border-box;
+  background-color: #cccccc;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+/* title */
+.subcription-Nxy .auto-group-fep9-7xV .payment-form-qtV {
+  width: 19.6rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 56.8rem;
+  top: 2.3rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* line */
+.subcription-Nxy .auto-group-fep9-7xV .line-1-hBw {
+  width: 125.7rem;
+  height: 0.356rem;
+  position: absolute;
+  left: 6.6002rem;
+  top: 8.05rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+/* user information */
+.subcription-Nxy .auto-group-fep9-7xV .user-information-jys {
+  width: 17rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 10.7rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.subcription-Nxy .auto-group-fep9-7xV .payment-information-rHo {
+  width: 21.4rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 5.8rem;
+  top: 57.4rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* name */
+.subcription-Nxy .auto-group-fep9-7xV .name--x5w {
+  width: 4.7rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 17rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+/* input name */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-u27j-C8h {
+  box-sizing: border-box;
+  padding: 1rem 1.7rem 0.8rem 1.7rem;
+  width: 125.5rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 19.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #808080;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #778899;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+
+/* gender */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-b7q5-Di1 {
+  width: 125.5rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 24.6rem;
+}
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-b7q5-Di1 .rectangle-3-YkH {
+  width: 125.5rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 0;
+  top: 0.8rem;
+  border: solid 0.1rem #778899;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-b7q5-Di1 .rectangle-97-s1s {
+  width: 5.9rem;
+  height: 1.8rem;
+  position: absolute;
+  left: 3.1rem;
+  top: 0;
+  border: solid 0.1rem #ffffff;
+  box-sizing: border-box;
+  background-color: #cccccc;
+  border-radius: 0.65rem;
+}
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-b7q5-Di1 .gender-mN9 {
+  width: 4.2rem;
+  height: 1.4rem;
+  position: absolute;
+  left: 3.9rem;
+  top: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #000000;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* male */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-b7q5-Di1 .male-GJu {
+  width: 3.8rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 3.7rem;
+  top: 2.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #000000;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* female */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-b7q5-Di1 .female-tbB {
+  width: 5.6rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 11rem;
+  top: 2.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #000000;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* adreess */
+.subcription-Nxy .auto-group-fep9-7xV .address--ad7 {
+  width: 6.1rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 31.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+/* address input */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-n8py-mb7 {
+  box-sizing: border-box;
+  padding: 0.7rem 0.5rem;
+  width: 22.2rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 34.8rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.1275;
+  color: #808080;
+  font-family: Nobile, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #778899;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+/* email */
+.subcription-Nxy .auto-group-fep9-7xV .email--fW9 {
+  width: 4.5rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 40.1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* Email input */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-xfpo-W6m {
+  box-sizing: border-box;
+  padding: 1rem 1.7rem 0.9rem 1.7rem;
+  width: 125.5rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 43rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #808080;
+  font-family: Nikukyu, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #778899;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+/* pincode */
+.subcription-Nxy .auto-group-fep9-7xV .pincode--LrV {
+  width: 6.2rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 47.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* pincode input */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-bawm-mwo {
+  box-sizing: border-box;
+  padding: 1rem 1.7rem 0.9rem 1.7rem;
+  width: 125.5rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 50.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #808080;
+  font-family: Nikukyu, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #778899;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+/* card type */
+.subcription-Nxy .auto-group-fep9-7xV .card-type--FyT {
+  width: 7.5rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 63rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* selection div */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-rv3f-dz1 {
+  box-sizing: border-box;
+  padding: 0.1rem 1.1rem 0.1rem 1rem;
+  width: 15rem;
+  height: 2rem;
+  position: absolute;
+  left: 7.4rem;
+  top: 65.6rem;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #778899;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+/* card selection */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-rv3f-dz1 .select-card-type--XZb {
+  margin-left: 1.3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  border: none;
+}
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-rv3f-dz1 .arrow-1-G1P {
+  margin-top: 0.3rem;
+  width: 0;
+  height: 0.3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+/* card number */
+.subcription-Nxy .auto-group-fep9-7xV .card-number--fLM {
+  width: 9.7rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 68.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* card number input */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-dno3-xqF {
+  box-sizing: border-box;
+  padding: 1rem 1.7rem 0.9rem 1.7rem;
+  width: 125.5rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 71.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #808080;
+  font-family: Nikukyu, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #778899;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+/* expired date */
+.subcription-Nxy .auto-group-fep9-7xV .expire-date--oqs {
+  width: 8.3rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 76.1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* expired date input */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-bl3s-KpD {
+  box-sizing: border-box;
+  padding: 1rem 1.7rem 0.9rem 1.7rem;
+  width: 125.5rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 79rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Nikukyu, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #778899;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+/* ccv */
+.subcription-Nxy .auto-group-fep9-7xV .ccv-B8M {
+  width: 2.6rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.6rem;
+  top: 83.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+}
+/* ccv input */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-gr2d-gqo {
+  box-sizing: border-box;
+  padding: 1rem 1.7rem 0.9rem 1.7rem;
+  width: 125.5rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 86.3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #808080;
+  font-family: Nikukyu, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #778899;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+/* button div */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-tysx-k4y {
+  width: 125.5rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 7.2rem;
+  top: 91.4rem;
+  display: flex;
+  align-items: center;
+}
+/* submit */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-tysx-k4y .auto-group-jufp-Gp1 {
+  margin-right: 0.5rem;
+  width: 62.5rem;
+  height: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #c6d1d8;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #131f2f;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+/* later */
+.subcription-Nxy .auto-group-fep9-7xV .auto-group-tysx-k4y .auto-group-y4ty-kz5 {
+  width: 62.5rem;
+  height: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #c6d1d8;
+  font-family: Century, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #131f2f;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+#fn1_error{
+  position: absolute;
+  top: 18rem;
+  left: 118rem;
+  font-size: 16px;
+}
+
+#email_error{
+  position: absolute;
+  top: 25.5em;
+  left: 118rem;
+  font-size: 16px;
+}
+
+#pc_error{
+  position: absolute;
+  top: 30.5em;
+  left: 118rem;
+  font-size: 16px;
+}
+
+#cn_error{
+  position: absolute;
+  top: 43.5em;
+  left: 118rem;
+  font-size: 16px;
+}
+
+#ccv_error{
+  position: absolute;
+  top: 52.5em;
+  left: 118rem;
+  font-size: 16px;
+}
+
+
+#date_error{
+  position: absolute;
+  top: 48.2em;
+  left: 118rem;
+  font-size: 16px;
+}
+
+#gender_error{
+  position: absolute;
+  top: 3.5em;
+  left: 110.67rem;
+  font-size: 16px;
+}
+
+
+#address_error{
+  position: absolute;
+  top: 22.33em;
+  left: 118rem;
+  font-size: 16px;
+}
